@@ -335,7 +335,7 @@ version = "1.6.3"
 url = "https://github.com/jamesbrq/ArchipelagoMLSS/releases/download/v1.6.3/mlss.apworld"
 home = "https://discord.com/channels/731205301247803413/1097936333583958217"
 
-[worlds.mmx]
+[worlds.mmx3]
 name = "Mega Man X3"
 version = "1.0.0"
 url = "https://github.com/TheLX5/Archipelago/releases/download/mmx3-v1.0.0/mmx3.apworld"
@@ -410,7 +410,7 @@ url = "https://github.com/TRPG0/ArchipelagoULTRAKILL/releases/download/2.2.0/ult
 home = "https://discord.com/channels/1085716850370957462/1123371409339584532"
 
 
-[worlds.manual_Beatsaber_Spencer2585]
+[worlds.manual_beatsaber_alphie]
 name = "Manual: Beat Saber"
 version = "1"
 url = "https://cdn.discordapp.com/attachments/1174153646322237581/1174153646909435904/manual_beatsaber_alphie.apworld?ex=664dee0c&is=664c9c8c&hm=3ecd27c7d49278ff1b08717b637790cc3f7372c41ea247be253b9cb63dcad0db&"
