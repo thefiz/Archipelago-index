@@ -1,0 +1,447 @@
+[common]
+archipelago_repo = "https://github.com/ArchipelagoMW/Archipelago.git"
+archipelago_version = "0.4.6"
+homepage = "https://github.com/Eijebong/Archipelago-index"
+required_global_files = ["alttp", "AutoSNIClient.py", "AutoWorld.py", "Files.py", "generic", "__init__.py", "LauncherComponents.py"]
+
+[worlds.adventure]
+name = "Adventure"
+supported = "adventure"
+
+
+[worlds.alttp]
+name = "The Legend of Zelda: A Link To The Past"
+supported = "alttp"
+
+[worlds.archipidle]
+name = "Archipidle"
+supported = "archipidle"
+
+[worlds._bizhawk]
+name = "Bizhawk Client"
+supported = "_bizhawk"
+
+[worlds.bk_sudoku]
+name = "BK Sudoku"
+supported = "bk_sudoku"
+
+[worlds.blasphemous]
+name = "Blasphemous"
+supported = "blasphemous"
+
+[worlds.bumpstik]
+name = "Bumper Stickers"
+supported = "bumpstik"
+
+[worlds.celeste64]
+name = "Celeste 64"
+supported = "celeste64"
+
+[worlds.checksfinder]
+name = "Checks Finder"
+supported = "checksfinder"
+
+[worlds.clique]
+name = "Clique"
+supported = "clique"
+
+[worlds.cv64]
+name = "Castlevania 64"
+supported = "cv64"
+
+[worlds.dark_souls_3]
+name = "Dark souls 3"
+supported = "dark_souls_3"
+
+[worlds.dkc3]
+name = "DKC 3"
+supported = "dkc3"
+
+[worlds.dlcquest]
+name = "DLC Quest"
+supported = "dlcquest"
+
+[worlds.doom_1993]
+name = "Doom 1993"
+supported = "doom_1993"
+
+[worlds.doom_ii]
+name = "Doom II"
+supported = "doom_ii"
+
+[worlds.factorio]
+name = "Factorio"
+supported = "factorio"
+
+[worlds.ff1]
+name = "Final Fantasy"
+supported = "ff1"
+
+[worlds.ffmq]
+name = "Final Fantasy Master Quest"
+supported = "ffmq"
+
+[worlds.heretic]
+name = "Heretic"
+supported = "heretic"
+
+[worlds.hk]
+name = "Hollow Knight"
+supported = "hk"
+
+[worlds.hylics2]
+name = "Hylics 2"
+supported = "hylics2"
+
+[worlds.kdl3]
+name = "Kirby's Dream Land 3"
+supported = "kdl3"
+
+[worlds.kh2]
+name = "Kingdom Hearts 2"
+supported = "kh2"
+
+[worlds.ladx]
+name = "The Legend of Zelda: Link's Awakening"
+supported = "ladx"
+
+[worlds.landstalker]
+name = "Landstalker: The Treasures of King Nole"
+supported = "landstalker"
+
+[worlds.lingo]
+name = "Lingo"
+supported = "lingo"
+
+[worlds.lufia2ac]
+name = "Lufia II Ancient Cave"
+supported = "lufia2ac"
+
+[worlds.meritous]
+name = "Meritous"
+supported = "meritous"
+
+[worlds.messenger]
+name = "The Messenger"
+supported = "messenger"
+
+[worlds.minecraft]
+name = "Minecraft"
+supported = "minecraft"
+
+[worlds.mmbn3]
+name = "MegaMan Battle Network 3"
+supported = "mmbn3"
+
+[worlds.musedash]
+name = "Muse Dash"
+supported = "musedash"
+
+[worlds.noita]
+name = "Noita"
+supported = "noita"
+
+[worlds.oot]
+name = "The Legend of Zelda: Ocarina of Time"
+supported = "oot"
+
+[worlds.overcooked2]
+name = "Overcooked 2"
+supported = "overcooked2"
+
+[worlds.pokemon_emerald]
+name = "Pokemon Emerald"
+supported = "pokemon_emerald"
+
+[worlds.pokemon_rb]
+name = "Pokemon Red/Blue"
+supported = "pokemon_rb"
+
+[worlds.raft]
+name = "Raft"
+supported = "raft"
+
+[worlds.rogue_legacy]
+name = "Rogue Legacy"
+supported = "rogue_legacy"
+
+[worlds.ror2]
+name = "Risk of Rain 2"
+supported = "ror2"
+
+[worlds.sa2b]
+name = "Sonic Adventure 2 Battle"
+supported = "sa2b"
+
+[worlds.sc2]
+name = "Starcraft 2"
+supported = "sc2"
+dependencies = ["_sc2common", "sc2wol"]
+
+[worlds.shivers]
+name = "Shivers"
+supported = "shivers"
+
+[worlds.shorthike]
+name = "A Short Hike"
+supported = "shorthike"
+
+[worlds.sm]
+name = "Super Metroid"
+supported = "sm"
+
+[worlds.sm64ex]
+name = "Super Mario 64"
+supported = "sm64ex"
+
+[worlds.smw]
+name = "Super Mario World"
+supported = "smw"
+
+[worlds.smz3]
+name = "SMZ3"
+supported = "smz3"
+
+[worlds.soe]
+name = "Secret of Evermore"
+supported = "soe"
+
+[worlds.spire]
+name = "Slay the spire"
+supported = "spire"
+
+[worlds.stardew_valley]
+name = "Stardew Valley"
+supported = "stardew_valley"
+
+[worlds.subnautica]
+name = "Subnautica"
+supported = "subnautica"
+
+[worlds.terraria]
+name = "Terraria"
+supported = "terraria"
+
+[worlds.timespinner]
+name = "Timespinner"
+supported = "timespinner"
+
+[worlds.tloz]
+name = "The Legend of Zelda"
+supported = "tloz"
+
+[worlds.tunic]
+name = "Tunic"
+supported = "tunic"
+
+[worlds.undertale]
+name = "Undertale"
+supported = "undertale"
+
+[worlds.v6]
+name = "VVVVVV"
+supported = "v6"
+
+[worlds.wargroove]
+name = "Wargroove"
+supported = "wargroove"
+
+# TODO: Switch to beta
+[worlds.witness]
+name = "The Witness"
+supported = "witness"
+
+[worlds.yoshisisland]
+name = "Yoshi's island"
+supported = "yoshisisland"
+
+[worlds.zillion]
+name = "Zillion"
+supported = "zillion"
+
+[worlds.zork_grand_inquisitor]
+name = "Zork Grand Inquisitor"
+supported = "zork_grand_inquisitor"
+
+[worlds.ahit]
+name = "A Hat in Time"
+version = "1.5.3"
+url = "https://github.com/CookieCat45/Archipelago-ahit/releases/download/1.5.3/ahit.apworld"
+home = "https://discord.com/channels/731205301247803413/1120157130100572260"
+
+[worlds.banjo_tooie]
+name = "Banjo Tooie"
+version = "1.5.1-beta"
+url = "https://github.com/jjjj12212/Archipelago-BanjoTooie/releases/download/V1.5.1-beta/banjo_tooie.apworld"
+home = "https://discord.com/channels/731205301247803413/1135352499172286505"
+
+[worlds.bloonstd6]
+name = "Bloons TD 6"
+version = "0.1.3"
+url = "https://github.com/GamingInfinite/Archipelago/releases/download/0.1.3.0/bloonstd6.apworld"
+home = "https://discord.com/channels/731205301247803413/1188559959508668527"
+
+[worlds.bomb_rush_cyberfunk]
+name = "Bomb Rush Cyberfunk"
+version = "2024-04-05"
+url = "https://cdn.discordapp.com/attachments/1141808261348212836/1236097986837352448/bomb_rush_cyberfunk.apworld?ex=664dd7b5&is=664c8635&hm=972e331689fd355d2997cf2b32bb0d0a8a7738fb2de37888b91b9abdf175a6c3&"
+home = "https://discord.com/channels/731205301247803413/1141808261348212836"
+
+[worlds.celeste]
+name = "Celeste"
+version = "0.3.0"
+url = "https://github.com/doshyw/CelesteArchipelago/releases/download/0.3.0/celeste.apworld"
+home = "https://discord.com/channels/731205301247803413/1021069526625947729"
+
+[worlds.duke3d]
+name = "Duke 3D"
+version = "0.0.5"
+url = "https://github.com/LLCoolDave/Duke3DAP/releases/download/0.0.5/duke3d.apworld"
+home = "https://discord.com/channels/731205301247803413/1223230842130796544"
+
+[worlds.enderlilies]
+name = "Ender Lilies: Quietus of the Knights"
+version = "0.6"
+url = "https://github.com/Trexounay/EnderLilies.Archipelago/releases/download/v0.6/enderlilies.apworld"
+home = "https://discord.com/channels/731205301247803413/1093030832886792242"
+
+[worlds.fm]
+name = "Yu-Gi-Oh! Forbidden Memories"
+version = "2.0.0"
+url = "https://github.com/sg4e/Archipelago/releases/download/v2.0.0/fm.apworld"
+home = "https://discord.com/channels/731205301247803413/1210743818564149288"
+
+[worlds.hades]
+name = "Hades"
+version = "0.10.1"
+url = "https://github.com/NaixGames/Polycosmos/releases/download/0.10.1/hades.apworld"
+home = "https://discord.com/channels/731205301247803413/1142985359563685898"
+
+[worlds.kh1]
+name = "Kingdom Hearts 1 Final Mix"
+version = "1.2.4"
+url = "https://github.com/gaithernOrg/KH1FM-AP/releases/download/1.2.4/kh1.apworld"
+home = "https://discord.com/channels/731205301247803413/1155095286113390694"
+
+[worlds.lol]
+name = "League of Legends"
+version = "0.1.5"
+url = "https://github.com/gaithernOrg/LoLAP/releases/download/0.1.5/lol.apworld"
+home = "https://discord.com/channels/731205301247803413/1184691812099686492"
+
+[worlds.mlss]
+name = "Mario and Luigi Superstar Saga"
+version = "1.6.3"
+url = "https://github.com/jamesbrq/ArchipelagoMLSS/releases/download/v1.6.3/mlss.apworld"
+home = "https://discord.com/channels/731205301247803413/1097936333583958217"
+
+[worlds.mmx]
+name = "Mega Man X3"
+version = "1.0.0"
+url = "https://github.com/TheLX5/Archipelago/releases/download/mmx3-v1.0.0/mmx3.apworld"
+home = "https://discord.com/channels/731205301247803413/1134349743984742520"
+
+[worlds.monster_sanctuary]
+name = "Monster Sanctuary"
+version = "1.1.4"
+url = "https://github.com/Gtaray/archipelago-monstersanctuary/releases/download/v1.1.4/monster_sanctuary.apworld"
+home = "https://discord.com/channels/731205301247803413/1217944663864901632"
+
+[worlds.ootbijmqwt]
+name = "Ocarina of Time but it's just Master Quest Water Temple"
+version = "1.5"
+url = "https://github.com/Alchav/ootbijmqwt/releases/download/v1.5/ootbijmqwt.apworld"
+home = "https://discord.com/channels/731205301247803413/1211745516807782410"
+
+[worlds.osu]
+name = "osu!"
+version = "0.1.8-alpha"
+url = "https://github.com/lilymnky-F/Archipelago-Osu/releases/download/v0.1.8/osu.apworld"
+home = "https://discord.com/channels/731205301247803413/1195040661171355730"
+
+[worlds.pokemon_crystal]
+name = "Pokemon Crystal"
+version = "2.0.0"
+url = "https://github.com/AliceMousie/Archipelago/releases/download/2.0.0/pokemon_crystal.apworld"
+home = "https://discord.com/channels/731205301247803413/1057476528419647572"
+
+[worlds.papermario]
+name = "Paper Mario 64"
+version = "0.3.2"
+url = "https://github.com/JKBSunshine/PMR_APWorld/releases/download/v0.3.2/papermario.apworld"
+home = "https://discord.com/channels/731205301247803413/1059875783071502398"
+
+[worlds.pseudoregalia]
+name = "Pseudoregalia"
+version = "0.7.2"
+url = "https://github.com/pseudoregalia-modding/pseudoregalia-archipelago/releases/download/0.7.2/pseudoregalia.apworld"
+home = "https://discord.com/channels/731205301247803413/1147564210436452393"
+
+[worlds.psychonauts]
+name = "Psychonauts"
+version = "0.5.0"
+url = "https://github.com/Akashortstack/Psychonauts_AP/releases/download/v0.5.0/psychonauts.apworld"
+home = "https://discord.com/channels/731205301247803413/1191273397976584212"
+
+[worlds.reventure]
+name = "Reventure"
+version = "0.12.1"
+url = "https://github.com/Droppel/ReventureEndingRando/releases/download/0.12.1/reventure.apworld"
+home = "https://discord.com/channels/731205301247803413/1200081144629174363"
+
+[worlds.tloz_oos]
+name = "The Legend of Zelda: Oracle of Seasons"
+version = "6.3"
+url = "https://github.com/Dinopony/ArchipelagoOoS/releases/download/oos-6.3/tloz_oos.apworld"
+home = "https://discord.com/channels/731205301247803413/1130706151303041054"
+
+[worlds.tww]
+name = "The Legend of Zelda: The Wind Waker"
+version = "2.4.0"
+# Wind waker download link is a zip containing the apworld, since I don't want to special case it, act as if it doesn't have a download link
+# Releases are here: https://github.com/tanjo3/tww_apworld/releases
+local = "./apworlds/tww.apworld"
+home = "https://discord.com/channels/731205301247803413/1080383306748678165"
+
+[worlds.ultrakill]
+name = "Ultrakill"
+version = "2.2.0"
+url = "https://github.com/TRPG0/ArchipelagoULTRAKILL/releases/download/2.2.0/ultrakill.apworld"
+home = "https://discord.com/channels/1085716850370957462/1123371409339584532"
+
+
+[worlds.manual_Beatsaber_Spencer2585]
+name = "Manual: Beat Saber"
+version = "1"
+url = "https://cdn.discordapp.com/attachments/1174153646322237581/1174153646909435904/manual_beatsaber_alphie.apworld?ex=664dee0c&is=664c9c8c&hm=3ecd27c7d49278ff1b08717b637790cc3f7372c41ea247be253b9cb63dcad0db&"
+home = "https://discord.com/channels/1097532591650910289/1174153646322237581"
+
+[worlds.manual_EuroTruckSim2_bdi]
+name = "Manual: Euro Truck Simulator 2"
+version = "2"
+url = "https://cdn.discordapp.com/attachments/1098183860266729522/1101743495045206056/manual_EuroTruckSim2_bdi.apworld?ex=664d8416&is=664c3296&hm=088a0581c5cfb64bf133783d5a346581b3ce8c9b09a6d10548ac91e8266062b8&"
+home = "https://discord.com/channels/1097532591650910289/1098183860266729522"
+
+[worlds.manual_hatsune_miku]
+name = "Manual: Hatsune Miku"
+version = "1"
+url = "https://cdn.discordapp.com/attachments/1206916860621225994/1221517191661228042/manual_hatsune_miku.apworld?ex=664d8849&is=664c36c9&hm=a134ce42057b0a8d6641c29c49a8ddc4113199107b12f18cf65e02ddfda508d7&"
+home = ""
+
+[worlds.manual_powerwashsimulator_hallojasper]
+name = "Manual: Powerwash Simulator"
+version = "3"
+url = "https://cdn.discordapp.com/attachments/1181412855187243079/1228136214801027112/manual_powerwashsimulator_hallojasper.apworld?ex=664de1bb&is=664c903b&hm=a174b15c390a14c1c6de387b06da6d734c449e0bb7006d2e8d4da1f3a955e070&"
+home = "https://discord.com/channels/1097532591650910289/1181412855187243079"
+
+[worlds.manual_stray_arnold0]
+name = "Manual: Stray"
+version = "1"
+url = "https://cdn.discordapp.com/attachments/1229917306709344316/1229917306897829968/manual_stray_arnold0.apworld?ex=664dc500&is=664c7380&hm=a7f596ba6834f79c1be6f35bb2d346f7a37e6afd9157fd675296b2bc030f8afb&"
+home = "https://discord.com/channels/1097532591650910289/1229917306709344316"
+
+[worlds.manual_touhou6theembodimentofscarletdevil_serterd]
+name = "Manual: Touhou 6 by Serterd"
+version = "1"
+url = "https://cdn.discordapp.com/attachments/1203675778135367700/1233507584833487058/manual_touhou6theembodimentofscarletdevil_serterd.apworld?ex=664da5b5&is=664c5435&hm=105e9091960a28d2291353d20b9a5b256a316d13b196cb52937ade7e34e42eab&"
+home = ""
