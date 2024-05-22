@@ -283,7 +283,7 @@ home = "https://discord.com/channels/731205301247803413/1188559959508668527"
 [worlds.bomb_rush_cyberfunk]
 name = "Bomb Rush Cyberfunk"
 version = "2024-04-05"
-url = "https://cdn.discordapp.com/attachments/1141808261348212836/1236097986837352448/bomb_rush_cyberfunk.apworld?ex=664dd7b5&is=664c8635&hm=972e331689fd355d2997cf2b32bb0d0a8a7738fb2de37888b91b9abdf175a6c3&"
+local = "./apworlds/bomb_rush_cyberfunk.apworld"
 home = "https://discord.com/channels/731205301247803413/1141808261348212836"
 
 [worlds.celeste]
@@ -412,35 +412,35 @@ home = "https://discord.com/channels/1085716850370957462/1123371409339584532"
 [worlds.manual_beatsaber_alphie]
 name = "Manual: Beat Saber"
 version = "1"
-url = "https://cdn.discordapp.com/attachments/1174153646322237581/1174153646909435904/manual_beatsaber_alphie.apworld?ex=664dee0c&is=664c9c8c&hm=3ecd27c7d49278ff1b08717b637790cc3f7372c41ea247be253b9cb63dcad0db&"
+local = "./apworlds/manual_beatsaber_alphie.apworld"
 home = "https://discord.com/channels/1097532591650910289/1174153646322237581"
 
 [worlds.manual_EuroTruckSim2_bdi]
 name = "Manual: Euro Truck Simulator 2"
 version = "2"
-url = "https://cdn.discordapp.com/attachments/1098183860266729522/1101743495045206056/manual_EuroTruckSim2_bdi.apworld?ex=664d8416&is=664c3296&hm=088a0581c5cfb64bf133783d5a346581b3ce8c9b09a6d10548ac91e8266062b8&"
+local = "./apworlds/manual_EuroTruckSim2_bdi.apworld"
 home = "https://discord.com/channels/1097532591650910289/1098183860266729522"
 
 [worlds.manual_hatsune_miku]
 name = "Manual: Hatsune Miku"
 version = "1"
-url = "https://cdn.discordapp.com/attachments/1206916860621225994/1221517191661228042/manual_hatsune_miku.apworld?ex=664d8849&is=664c36c9&hm=a134ce42057b0a8d6641c29c49a8ddc4113199107b12f18cf65e02ddfda508d7&"
+local = "./apworlds/manual_hatsune_miku.apworld"
 home = ""
 
 [worlds.manual_powerwashsimulator_hallojasper]
 name = "Manual: Powerwash Simulator"
 version = "3"
-url = "https://cdn.discordapp.com/attachments/1181412855187243079/1228136214801027112/manual_powerwashsimulator_hallojasper.apworld?ex=664de1bb&is=664c903b&hm=a174b15c390a14c1c6de387b06da6d734c449e0bb7006d2e8d4da1f3a955e070&"
+local = "./apworlds/manual_powerwashsimulator_hallojasper.apworld"
 home = "https://discord.com/channels/1097532591650910289/1181412855187243079"
 
 [worlds.manual_stray_arnold0]
 name = "Manual: Stray"
 version = "1"
-url = "https://cdn.discordapp.com/attachments/1229917306709344316/1229917306897829968/manual_stray_arnold0.apworld?ex=664dc500&is=664c7380&hm=a7f596ba6834f79c1be6f35bb2d346f7a37e6afd9157fd675296b2bc030f8afb&"
+local = "./apworlds/manual_stray_arnold0.apworld"
 home = "https://discord.com/channels/1097532591650910289/1229917306709344316"
 
 [worlds.manual_touhou6theembodimentofscarletdevil_serterd]
 name = "Manual: Touhou 6 by Serterd"
 version = "1"
-url = "https://cdn.discordapp.com/attachments/1203675778135367700/1233507584833487058/manual_touhou6theembodimentofscarletdevil_serterd.apworld?ex=664da5b5&is=664c5435&hm=105e9091960a28d2291353d20b9a5b256a316d13b196cb52937ade7e34e42eab&"
+local = "./apworlds/manual_touhou6theembodimentofscarletdevil_serterd"
 home = ""
