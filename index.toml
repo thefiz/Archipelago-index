@@ -8,7 +8,6 @@ required_global_files = ["alttp", "AutoSNIClient.py", "AutoWorld.py", "Files.py"
 name = "Adventure"
 supported = "adventure"
 
-
 [worlds.alttp]
 name = "The Legend of Zelda: A Link To The Past"
 supported = "alttp"
@@ -361,8 +360,8 @@ home = "https://discord.com/channels/731205301247803413/1195040661171355730"
 
 [worlds.pokemon_crystal]
 name = "Pokemon Crystal"
-version = "2.0.0"
-url = "https://github.com/AliceMousie/Archipelago/releases/download/2.0.0/pokemon_crystal.apworld"
+version = "2.0.1"
+url = "https://github.com/AliceMousie/Archipelago/releases/download/2.0.1/pokemon_crystal.apworld"
 home = "https://discord.com/channels/731205301247803413/1057476528419647572"
 
 [worlds.papermario]
