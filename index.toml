@@ -444,3 +444,9 @@ name = "Manual: Touhou 6 by Serterd"
 version = "1"
 local = "./apworlds/manual_touhou6theembodimentofscarletdevil_serterd"
 home = ""
+
+[worlds.into_the_breach]
+name = "Into the Breach"
+version = "0.1.0"
+local = "./apworlds/into_the_breach.apworld"
+home = "https://github.com/Ishigh1/ITB-randomizer-for-AP"
