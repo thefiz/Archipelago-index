@@ -450,3 +450,9 @@ name = "Into the Breach"
 version = "0.1.0"
 local = "./apworlds/into_the_breach.apworld"
 home = "https://github.com/Ishigh1/ITB-randomizer-for-AP"
+
+[worlds.outer_wilds]
+name = "Outer Wilds"
+version = "0.2.0"
+url = "https://github.com/Ixrec/OuterWildsArchipelagoRandomizer/releases/download/v0.2.0/outer_wilds.apworld"
+home = "https://discord.com/channels/731205301247803413/1178700404637311086"
