@@ -2,7 +2,7 @@
 archipelago_repo = "https://github.com/ArchipelagoMW/Archipelago.git"
 archipelago_version = "0.4.6"
 homepage = "https://github.com/Eijebong/Archipelago-index"
-required_global_files = ["alttp", "AutoSNIClient.py", "AutoWorld.py", "Files.py", "generic", "__init__.py", "LauncherComponents.py"]
+required_global_files = ["alttp", "AutoSNIClient.py", "AutoWorld.py", "Files.py", "generic", "__init__.py", "LauncherComponents.py", "../LICENSE"]
 
 [worlds.adventure]
 name = "Adventure"
