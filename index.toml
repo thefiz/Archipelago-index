@@ -352,12 +352,6 @@ version = "1.1.4"
 url = "https://github.com/Gtaray/archipelago-monstersanctuary/releases/download/v1.1.4/monster_sanctuary.apworld"
 home = "https://discord.com/channels/731205301247803413/1217944663864901632"
 
-[worlds.ootbijmqwt]
-name = "Ocarina of Time but it's just Master Quest Water Temple"
-version = "1.5"
-url = "https://github.com/Alchav/ootbijmqwt/releases/download/v1.5/ootbijmqwt.apworld"
-home = "https://discord.com/channels/731205301247803413/1211745516807782410"
-
 [worlds.osu]
 name = "osu!"
 version = "0.1.8-alpha"
