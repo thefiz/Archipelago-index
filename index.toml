@@ -468,3 +468,9 @@ name = "Old School Runescape"
 version = "1.1"
 url = "https://github.com/digiholic/Archipelago/releases/download/rc-1.1/osrs.apworld"
 home = "https://discord.com/channels/731205301247803413/1113198991845376170"
+
+[worlds.manual_pizzatower_steph]
+name = "Manual: Pizza Tower"
+version = "1"
+local = "./apworlds/manual_pizzatower_steph.apworld"
+home = "https://discord.com/channels/1097532591650910289/1109918404812492922"
