@@ -445,6 +445,12 @@ version = "1"
 local = "./apworlds/manual_touhou6theembodimentofscarletdevil_serterd"
 home = ""
 
+[worlds.manual_snakepass_thegmeister]
+name = "Manual: Snake pass"
+version = "2"
+local = "./apworlds/manual_snakepass_thegmeister.apworld"
+home = ""
+
 [worlds.into_the_breach]
 name = "Into the Breach"
 version = "0.1.0"
