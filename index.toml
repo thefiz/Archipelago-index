@@ -354,8 +354,8 @@ home = "https://discord.com/channels/731205301247803413/1217944663864901632"
 
 [worlds.osu]
 name = "osu!"
-version = "0.1.8-alpha"
-url = "https://github.com/lilymnky-F/Archipelago-Osu/releases/download/v0.1.8/osu.apworld"
+version = "1.0.0-beta"
+url = "https://github.com/lilymnky-F/Archipelago-Osu/releases/download/v1.0/osu.apworld"
 home = "https://discord.com/channels/731205301247803413/1195040661171355730"
 
 [worlds.pokemon_crystal]
