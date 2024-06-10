@@ -360,8 +360,8 @@ home = "https://discord.com/channels/731205301247803413/1195040661171355730"
 
 [worlds.pokemon_crystal]
 name = "Pokemon Crystal"
-version = "2.0.3"
-url = "https://github.com/AliceMousie/Archipelago/releases/download/2.0.3/pokemon_crystal.apworld"
+version = "2.1.0"
+url = "https://github.com/AliceMousie/Archipelago/releases/download/2.1.0/pokemon_crystal.apworld"
 home = "https://discord.com/channels/731205301247803413/1057476528419647572"
 
 [worlds.papermario]
@@ -378,8 +378,8 @@ home = "https://discord.com/channels/731205301247803413/1147564210436452393"
 
 [worlds.psychonauts]
 name = "Psychonauts"
-version = "0.5.0"
-url = "https://github.com/Akashortstack/Psychonauts_AP/releases/download/v0.5.0/psychonauts.apworld"
+version = "0.6.0"
+url = "https://github.com/Akashortstack/Psychonauts_AP/releases/download/v0.6.0/psychonauts.apworld"
 home = "https://discord.com/channels/731205301247803413/1191273397976584212"
 
 [worlds.reventure]
