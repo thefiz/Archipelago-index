@@ -492,3 +492,15 @@ name = "An Untitled Story"
 version = "1.0-beta"
 local = "./apworlds/aus.apworld"
 home = "https://discord.com/channels/731205301247803413/1194062970230165554"
+[worlds.khrecom]
+name = "Kingdom Hearts RE Chain of Memories"
+version = "1.4.1"
+url = "https://github.com/gaithernOrg/ArchipelagoKHRECOM/releases/download/1.4.1/khrecom.apworld"
+home = "https://discord.com/channels/731205301247803413/1074710550384234587"
+
+[worlds.khcom]
+name = "Kingdom Hearts Chain of Memories"
+version = "1.0.0"
+url = "https://github.com/gaithernOrg/ArchipelagoKHCOM/releases/download/1.0.0/khcom.apworld"
+home = "https://discord.com/channels/731205301247803413/1074710550384234587"
+
