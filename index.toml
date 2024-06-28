@@ -366,8 +366,8 @@ home = "https://discord.com/channels/731205301247803413/1057476528419647572"
 
 [worlds.papermario]
 name = "Paper Mario 64"
-version = "0.3.2"
-url = "https://github.com/JKBSunshine/PMR_APWorld/releases/download/v0.3.2/papermario.apworld"
+version = "0.3.3"
+url = "https://github.com/JKBSunshine/PMR_APWorld/releases/download/v0.3.3/papermario.apworld"
 home = "https://discord.com/channels/731205301247803413/1059875783071502398"
 
 [worlds.pseudoregalia]
