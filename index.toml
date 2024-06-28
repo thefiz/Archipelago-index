@@ -504,3 +504,9 @@ version = "1.0.0"
 url = "https://github.com/gaithernOrg/ArchipelagoKHCOM/releases/download/1.0.0/khcom.apworld"
 home = "https://discord.com/channels/731205301247803413/1074710550384234587"
 
+[worlds.civ6]
+# XXX: Add LICENSE.md in the apworld when updating
+name = "Civilization VI"
+version = "0.4.2"
+home = "https://discord.com/channels/731205301247803413/1235473969487024189"
+local = "./apworlds/civ6.apworld"
