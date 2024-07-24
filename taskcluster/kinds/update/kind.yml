@@ -16,5 +16,5 @@ tasks:
     worker:
       artifacts:
         - type: file
-          path: /artifacts/index.lock
+          path: /$VCS_PATH/index.lock
           name: index.lock
