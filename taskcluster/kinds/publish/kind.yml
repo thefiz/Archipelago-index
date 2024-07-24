@@ -10,7 +10,7 @@ kind-dependencies:
   - update
 
 tasks:
-  publish:
+  index:
     dependencies:
       index: update-index
     description: Push changed index.lock
