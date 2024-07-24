@@ -5,6 +5,8 @@ task-defaults:
   worker-type: "linux-small"
   run-on-tasks-for: ["github-push"]
   run-on-git-branches: ["ci"]
+  optimization:
+    skip-unless-changed: ["index.toml", "index/**"]
 
 kind-dependencies:
   - update
@@ -18,7 +20,7 @@ tasks:
       using: run-task
       use-caches: false
       command: >-
-        cd $VCS_PATH
+        cd $VCS_PATH && /usr/local/bin/setup-ssh.sh && (git commit -am "Update lockfile" || exit 0) && git push origin main
     fetches:
       index:
         - artifact: index.lock
