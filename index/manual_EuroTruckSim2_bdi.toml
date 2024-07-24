@@ -1,0 +1,4 @@
+name = "Manual: Euro Truck Simulator 2"
+
+[versions]
+"0.0.2" = { local = "../apworlds/manual_EuroTruckSim2_bdi-0.0.2.apworld" }

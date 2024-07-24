@@ -1,0 +1,5 @@
+name = "Manual: Touhou 6 by Serterd"
+home = ""
+
+[versions]
+"0.0.1" = { local = "../apworlds/manual_touhou6theembodimentofscarletdevil_serterd-0.0.1.apworld" }

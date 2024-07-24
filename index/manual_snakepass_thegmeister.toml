@@ -1,0 +1,5 @@
+name = "Manual: Snake pass"
+home = ""
+
+[versions]
+"0.0.2" = { local = "../apworlds/manual_snakepass_thegmeister-0.0.2.apworld" }

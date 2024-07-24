@@ -1,0 +1,6 @@
+name = "Ender Lilies: Quietus of the Knights"
+home = "https://discord.com/channels/731205301247803413/1093030832886792242"
+
+[versions]
+"0.6.0" = { url = "https://github.com/Trexounay/EnderLilies.Archipelago/releases/download/v0.6/enderlilies.apworld" }
+

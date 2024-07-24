@@ -1,0 +1,6 @@
+name = "Hades"
+home = "https://discord.com/channels/731205301247803413/1142985359563685898"
+default_url = "https://github.com/NaixGames/Polycosmos/releases/download/{{version}}/hades.apworld"
+
+[versions]
+"0.12.2" = {}

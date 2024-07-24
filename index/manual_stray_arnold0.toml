@@ -1,0 +1,5 @@
+name = "Manual: Stray"
+home = "https://discord.com/channels/1097532591650910289/1229917306709344316"
+
+[versions]
+"0.0.2" = { local = "../apworlds/manual_stray_arnold0-0.0.2.apworld" }

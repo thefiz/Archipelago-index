@@ -1,0 +1,6 @@
+name = "Kingdom Hearts Chain of Memories"
+home = "https://discord.com/channels/731205301247803413/1074710550384234587"
+default_url = "https://github.com/gaithernOrg/ArchipelagoKHCOM/releases/download/{{version}}/khcom.apworld"
+
+[versions]
+"1.0.0" = {}

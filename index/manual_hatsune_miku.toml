@@ -1,0 +1,5 @@
+name = "Manual: Hatsune Miku"
+home = ""
+
+[versions]
+"0.0.1" = { local = "../apworlds/manual_hatsune_miku-0.0.1.apworld" }

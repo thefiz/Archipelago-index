@@ -1,0 +1,6 @@
+name = "Kingdom Hearts 1 Final Mix"
+home = "https://discord.com/channels/731205301247803413/1155095286113390694"
+default_url = "https://github.com/gaithernOrg/KH1FM-AP/releases/download/{{version}}/kh1.apworld"
+
+[versions]
+"2.3.1" = {}

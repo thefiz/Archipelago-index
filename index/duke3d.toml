@@ -1,0 +1,6 @@
+name = "Duke 3D"
+home = "https://discord.com/channels/731205301247803413/1223230842130796544"
+default_url = "https://github.com/LLCoolDave/Duke3DAP/releases/download/{{version}}/duke3d.apworld"
+
+[versions]
+"0.0.5" = {}

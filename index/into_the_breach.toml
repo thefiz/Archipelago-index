@@ -1,0 +1,6 @@
+name = "Into the Breach"
+home = "https://github.com/Ishigh1/ITB-randomizer-for-AP"
+# Apworld is in `libs.7z/worlds`
+
+[versions]
+"0.15.0" = { local = "../apworlds/into_the_breach-0.15.0.apworld" }

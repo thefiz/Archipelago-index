@@ -1,0 +1,6 @@
+name = "Bloons TD 6"
+home = "https://discord.com/channels/731205301247803413/1188559959508668527"
+default_url = "https://github.com/GamingInfinite/Archipelago/releases/download/{{version}}.0/bloonstd6.apworld"
+
+[versions]
+"0.2.3" = {}
