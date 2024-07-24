@@ -4,3 +4,4 @@ default_url = "https://github.com/AliceMousie/Archipelago/releases/download/{{ve
 
 [versions]
 "2.1.2" = {}
+"2.1.1" = {}
