@@ -23,4 +23,4 @@ tasks:
       index:
         - artifact: index.lock
           extract: false
-          dest: ${VCS_PATH}/index.lock
+          dest: /builds/worker/checkouts/vcs
