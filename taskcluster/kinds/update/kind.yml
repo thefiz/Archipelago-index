@@ -1,0 +1,20 @@
+---
+task-defaults:
+  worker:
+    docker-image: ghcr.io/eijebong/apwm:latest
+    max-run-time: 1800
+
+tasks:
+  index:
+    worker-type: linux-small
+    description: Run apwm update
+    run:
+      using: run-task
+      use-caches: false
+      command: >-
+        cd $VCS_PATH && apwm update -i ./ && git diff
+    worker:
+      artifacts:
+        - type: file
+          path: /artifacts/index.lock
+          name: index.lock

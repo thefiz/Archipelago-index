@@ -1,0 +1,26 @@
+task-defaults:
+  worker:
+    docker-image: {in-tree: publish}
+    max-run-time: 1800
+  worker-type: "linux-small"
+  run-on-tasks-for: ["github-push"]
+  run-on-git-branches: ["ci"]
+
+kind-dependencies:
+  - update
+
+tasks:
+  publish:
+    dependencies:
+      index: update-index
+    description: Push changed index.lock
+    run:
+      using: run-task
+      use-caches: false
+      command: >-
+        cd $VCS_PATH
+    fetches:
+      index:
+        - artifact: index.lock
+          extract: false
+          dest: ${VCS_PATH}/index.lock
