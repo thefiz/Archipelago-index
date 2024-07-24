@@ -1,7 +1,7 @@
 ---
 task-defaults:
   worker:
-    docker-image: ghcr.io/eijebong/apwm:latest
+    docker-image: ghcr.io/eijebong/apwm:main-21
     max-run-time: 1800
 
 tasks:
