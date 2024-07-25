@@ -1,0 +1,20 @@
+task-defaults:
+  worker:
+    docker-image: {in-tree: publish}
+    max-run-time: 1800
+  worker-type: "linux-small"
+  run-on-tasks-for: ["github-push"]
+  run-on-git-branches: ["main"]
+  optimization:
+    skip-unless-changed: ["index.lock"]
+
+tasks:
+  index:
+    description: Webhook to update lobby
+    scopes:
+      - secrets:get:Archipelago-index
+    run:
+      using: run-task
+      use-caches: false
+      command: >-
+        /usr/local/bin/send_webhook.sh
