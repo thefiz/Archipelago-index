@@ -11,6 +11,9 @@
 [celeste]
 "0.3.0" = "f02ee50d1bf9b44d710ceacf4d8659a960f9ad08262acd621f50847ffe765b78"
 
+[checksmate]
+"0.2.7" = "7fe71f791e8b455ecafe0646f4fda1bd3def2888e4459dc673fa1876db9e2e50"
+
 [civ6]
 "0.4.3" = "dd970344c0b30bc3cc1bf53ca38a5dfbab31ae93d090e754c12c829d29b1b8ce"
 
