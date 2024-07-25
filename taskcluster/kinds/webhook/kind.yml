@@ -12,7 +12,7 @@ tasks:
   index:
     description: Webhook to update lobby
     scopes:
-      - secrets:get:Archipelago-index
+      - secrets:get:ap-lobby
     run:
       using: run-task
       use-caches: false
