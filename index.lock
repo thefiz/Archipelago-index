@@ -68,6 +68,9 @@
 [manual_touhou6theembodimentofscarletdevil_serterd]
 "0.0.1" = "4b7fdc96ebe6c080a2beda3ca71f6ac54c3f6960c9cca91613956319f8e150ca"
 
+[megamix]
+"1.0.0-beta" = "489bf9fd5ddf3683d7a1428a5c06e162e69ad88ef61c301ee7646eba67e5760b"
+
 [mmx3]
 "1.2.1" = "03970084642bdbfa8348768ea9c84aa1fa36e863282a4b557067503bd898f49e"
 
