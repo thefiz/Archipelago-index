@@ -4,7 +4,7 @@ task-defaults:
     max-run-time: 1800
   worker-type: "linux-small"
   run-on-tasks-for: ["github-push"]
-  run-on-git-branches: ["ci"]
+  run-on-git-branches: ["main"]
   optimization:
     skip-unless-changed: ["index.toml", "index/**"]
 
@@ -25,7 +25,7 @@ tasks:
         cd $VCS_PATH && /usr/local/bin/setup-ssh.sh &&
         (git commit -am "Update lockfile" || exit 0) &&
         git remote add repo git@github.com:Eijebong/Archipelago-index.git &&
-        git push repo HEAD:ci
+        git push repo HEAD:main
     fetches:
       index:
         - artifact: index.lock
