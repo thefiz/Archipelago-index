@@ -116,6 +116,9 @@
 [reventure]
 "0.12.1" = "db9570106273b995bf8cef29a70a5baba098f45f0a3e8294f757eafca724fabb"
 
+[sadx]
+"0.3.1" = "87fd0f69eff2ee283d6946d4ad1018695a7ad7ce18c3492873a7a5a31ce5a93b"
+
 [tloz_oos]
 "7.1.0" = "76edbe6a457a8bc07eef8448ebf3a0b7010d8445a2a5b97e8e5407f06bcdc511"
 
