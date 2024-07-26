@@ -1,0 +1,6 @@
+name = "Lethal Company"
+home = "https://discord.com/channels/731205301247803413/1183860023147896942"
+default_url = "https://github.com/T0r1nn/APLC/releases/download/{{version}}/lethal_company.apworld"
+
+[versions]
+"0.6.9-beta" = {}
