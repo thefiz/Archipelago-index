@@ -47,6 +47,9 @@
 [khrecom]
 "1.4.1" = "de91d41d73f3123c3fe8f06b8dc28953f31caf721c2b8d606eb90f3350aa540b"
 
+[lethal_company]
+"0.6.9-beta" = "91aa53279b56ea25eb0d1d967075811e473d411931ba31ccecdcd4a7d2ae44b3"
+
 [lol]
 "0.1.5" = "a203c338b0028b82fb5d9c7196133e766f09b1d096ec4ee5c494b3d47a33a11b"
 
