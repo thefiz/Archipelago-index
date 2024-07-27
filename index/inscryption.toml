@@ -1,0 +1,5 @@
+name = "Inscryption"
+home = "https://discord.com/channels/731205301247803413/1124167486078722189"
+
+[versions]
+"0.3.0" = { "url" = "https://github.com/DrBibop/Archipelago_Inscryption/releases/download/beta7/inscryption.apworld" }
