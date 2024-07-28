@@ -1,0 +1,4 @@
+name = "Manual: Euro Truck Simulator 2 all DLCs"
+
+[versions]
+"0.0.1" = { local = "../apworlds/manual_eurotrucksim2dlc_dopin-0.0.1.apworld" }
