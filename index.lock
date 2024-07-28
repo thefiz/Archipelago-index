@@ -65,6 +65,9 @@
 [manual_EuroTruckSim2_bdi]
 "0.0.3" = "bdb473c957f79a5f2b9991e323057f0f2b49348677e4908844c207224fb0fc74"
 
+[manual_eurotrucksim2dlc_dopin]
+"0.0.1" = "f9b65b988980a2930e01f256e247b31e3e89b1c3d803c9f7d6d32e5fdc66fd25"
+
 [manual_hatsune_miku]
 "0.0.1" = "944b120a5b8e28445494dedaf0b703bc0866c408e8f80ec9e74db9f9e82706d1"
 
