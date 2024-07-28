@@ -59,17 +59,11 @@
 [lol]
 "0.1.5" = "a203c338b0028b82fb5d9c7196133e766f09b1d096ec4ee5c494b3d47a33a11b"
 
-[manual_Beatsaber_Spencer2585]
-"1.1.0" = "8928d88f0a6fe154be3ac688ccecc4942ccecf2a22156e76c05f4adc0670feb8"
-
 [manual_EuroTruckSim2_bdi]
 "0.0.3" = "bdb473c957f79a5f2b9991e323057f0f2b49348677e4908844c207224fb0fc74"
 
 [manual_eurotrucksim2dlc_dopin]
 "0.0.1" = "f9b65b988980a2930e01f256e247b31e3e89b1c3d803c9f7d6d32e5fdc66fd25"
-
-[manual_hatsune_miku]
-"0.0.1" = "944b120a5b8e28445494dedaf0b703bc0866c408e8f80ec9e74db9f9e82706d1"
 
 [manual_pizzatower_steph]
 "0.0.4" = "31deb36c5276045127a0b8b693b57c86088f86216d2f77555a1379fa4747f2d8"
@@ -77,14 +71,8 @@
 [manual_powerwashsimulator_hallojasper]
 "0.0.4" = "92fed8e157172e182db8e7b9878099a1499dae7d1388cca4d67f09bea1855b0d"
 
-[manual_snakepass_thegmeister]
-"0.0.2" = "66d480bed51f03cd3edf7a189590a89d97ecd791a7205b3c300f292770665908"
-
 [manual_stray_arnold0]
 "0.0.2" = "6823973610228f7245705e9cf00cab5d479cd8b00924af429d88ace0faad8a69"
-
-[manual_touhou6theembodimentofscarletdevil_serterd]
-"0.0.1" = "4b7fdc96ebe6c080a2beda3ca71f6ac54c3f6960c9cca91613956319f8e150ca"
 
 [megamix]
 "1.0.0-beta" = "489bf9fd5ddf3683d7a1428a5c06e162e69ad88ef61c301ee7646eba67e5760b"
