@@ -1,6 +1,6 @@
 name = "Psychonauts"
 home = "https://discord.com/channels/731205301247803413/1191273397976584212"
-default_url = "https://github.com/Akashortstack/Psychonauts_AP/releases/download/v{{version}}/psychonauts.apworld"
+default_url = "https://github.com/Akashortstack/Psychonauts-AP-Integration/releases/download/v{{version}}/psychonauts.apworld"
 
 [versions]
-"0.6.0" = {}
+"0.7.0" = {}
