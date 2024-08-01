@@ -1,0 +1,5 @@
+name = "Stardew Valley"
+home = "https://discord.com/channels/731205301247803413/1090823633099833464"
+
+[versions]
+"6.4.5" = { local = "../apworlds/stardew_valley-6.4.5.apworld" }
