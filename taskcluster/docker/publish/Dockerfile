@@ -9,9 +9,9 @@ RUN chmod +x /usr/local/bin/send_webhook.sh
 # %include-run-task
 
 # Add worker user
-RUN mkdir /builds && \
+RUN mkdir -p /builds && \
     adduser -h /builds/worker -s /bin/ash -D worker && \
-    mkdir /builds/worker/artifacts && \
+    mkdir -p /builds/worker/artifacts && \
     chown worker:worker /builds/worker/artifacts
 
 ENV SHELL=/bin/ash \
