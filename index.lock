@@ -83,6 +83,9 @@
 [metroidprime]
 "0.2.10" = "feffbe6b8712317566ddbaa41280b3e20180e06341db78d59f0effd0b97b8f56"
 
+[minit]
+"0.6.4" = "ab182f0f1ed91356368f03792090f8face00161a80f41cf337a0a817ce0dfe63"
+
 [mk64]
 "0.2.1-c" = "19b04e0aebe6eebb59a6db25be6790ef93e98fbecc91059d9cee17ec8a90dbc1"
 
