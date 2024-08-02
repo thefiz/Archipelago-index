@@ -2,4 +2,4 @@ name = "Metroid Prime"
 home = "https://discord.com/channels/731205301247803413/1172631093837570068"
 
 [versions]
-"0.2.10" = { local = "../apworlds/metroidprime-0.2.10.apworld" }
+"0.2.11" = { local = "../apworlds/metroidprime-0.2.11.apworld" }
