@@ -71,8 +71,14 @@
 [manual_pizzatower_steph]
 "0.0.4" = "31deb36c5276045127a0b8b693b57c86088f86216d2f77555a1379fa4747f2d8"
 
+[manual_pokemonsnapwndrfl_alirobotnik]
+"1.2.1" = "9bcc01b8d324c6604a66ef33fa197dcec6ddeac31d4960b5c269d1d210389589"
+
 [manual_powerwashsimulator_hallojasper]
 "0.0.4" = "92fed8e157172e182db8e7b9878099a1499dae7d1388cca4d67f09bea1855b0d"
+
+[manual_rhythmdoctor_crimsondestroyer]
+"0.0.1" = "e318b20cf34dc653d6c11e900bf036e3e2c5f2e11c41957dd0737861b6cfbf60"
 
 [manual_stray_arnold0]
 "0.0.2" = "6823973610228f7245705e9cf00cab5d479cd8b00924af429d88ace0faad8a69"
@@ -141,7 +147,7 @@
 "7.1.0" = "76edbe6a457a8bc07eef8448ebf3a0b7010d8445a2a5b97e8e5407f06bcdc511"
 
 [tww]
-"2.5.0" = "ebb6e92510534840d80ccc07ff98d5dec6300d20581aa9debeb09e23c51b6713"
+"2.5.1" = "ba16461769feb74370970ea275ddf8a544adeeeb78767fc7e2a10bb941eb3d91"
 
 [ultrakill]
 "2.2.2" = "274443b12c6377c9d431643c0e0440c979d5aac2f6ef00a0ef5ac1316710b1d6"
