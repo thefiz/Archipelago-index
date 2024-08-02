@@ -5,4 +5,4 @@ home = "https://discord.com/channels/731205301247803413/1080383306748678165"
 
 
 [versions]
-"2.5.0" = { local = "../apworlds/tww-2.5.0.apworld" }
+"2.5.1" = { local = "../apworlds/tww-2.5.1.apworld" }
