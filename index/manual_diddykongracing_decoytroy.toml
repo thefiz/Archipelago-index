@@ -1,4 +1,4 @@
 name = "Manual: Diddy Kong Racing"
 
 [versions]
-"0.0.1" = { local = "../apworlds/manual_diddykongracing_decoytroy-0.0.1.apworld " }
+"0.0.1" = { local = "../apworlds/manual_diddykongracing_decoytroy-0.0.1.apworld" }
