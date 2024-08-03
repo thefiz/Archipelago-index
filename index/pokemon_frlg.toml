@@ -1,6 +1,6 @@
 name = "Pokemon FireRed and LeafGreen"
 home = "https://discord.com/channels/731205301247803413/1232325933902467082"
-default_url = "https://github.com/vyneras/Archipelago/releases/download/{{version}}-alpha/pokemon_frlg.apworld"
+default_url = "https://github.com/vyneras/Archipelago/releases/download/{{version}}/pokemon_frlg.apworld"
 
 [versions]
-"0.4.1" = {}
+"0.5.0-beta" = {}
