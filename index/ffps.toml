@@ -1,0 +1,5 @@
+name = "Freddy Fazbear's Pizzeria Simulator"
+home = "https://discord.com/channels/731205301247803413/1078423429310582806"
+
+[versions]
+"0.0.1" = { local = "../apworlds/ffps-0.0.1.apworld" }
