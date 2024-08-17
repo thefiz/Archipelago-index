@@ -1,7 +1,7 @@
 ---
 task-defaults:
   worker:
-    docker-image: ghcr.io/eijebong/apwm:main-25
+    docker-image: ghcr.io/eijebong/apwm:main-37
     max-run-time: 1800
   optimization:
     skip-unless-changed: ["index.toml", "index/**"]
