@@ -12,6 +12,7 @@ tasks:
     description: Run apwm update
     run:
       using: run-task
+      use-caches: false
       command: >-
         cd $VCS_PATH && apwm update -i ./ && git diff
     worker:
