@@ -20,7 +20,6 @@ tasks:
       - secrets:get:Archipelago-index
     run:
       using: run-task
-      use-caches: false
       command: >-
         cd $VCS_PATH && /usr/local/bin/setup-ssh.sh &&
         (git commit -am "Update lockfile" || exit 0) &&

@@ -15,6 +15,5 @@ tasks:
       - secrets:get:ap-lobby
     run:
       using: run-task
-      use-caches: false
       command: >-
         /usr/local/bin/send_webhook.sh

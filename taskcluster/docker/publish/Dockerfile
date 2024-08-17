@@ -12,7 +12,7 @@ RUN chmod +x /usr/local/bin/send_webhook.sh
 RUN mkdir -p /builds && \
     adduser -h /builds/worker -s /bin/ash -D worker && \
     mkdir -p /builds/worker/artifacts && \
-    chown worker:worker /builds/worker/artifacts
+    chown worker:worker /builds/worker/artifacts /builds/worker
 
 ENV SHELL=/bin/ash \
     HOME=/builds/worker \
