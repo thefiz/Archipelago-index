@@ -3,6 +3,9 @@ task-defaults:
   worker:
     docker-image: ghcr.io/eijebong/apwm:main-37
     max-run-time: 1800
+    volumes:
+      - /builds/worker/checkouts
+      - /builds/worker/.cache
   optimization:
     skip-unless-changed: ["index.toml", "index/**"]
 
@@ -12,7 +15,6 @@ tasks:
     description: Run apwm update
     run:
       using: run-task
-      use-caches: false
       command: >-
         cd $VCS_PATH && apwm update -i ./ && git diff
     worker:
