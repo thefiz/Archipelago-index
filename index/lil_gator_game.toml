@@ -1,0 +1,6 @@
+name = "Lil Gator Game"
+home = "https://discord.com/channels/731205301247803413/1084922067469734039"
+default_url = "https://github.com/natronium/GatorArchipelago/releases/download/v{{version}}/lil_gator_game.apworld"
+
+[versions]
+"1.0.1" = {}
