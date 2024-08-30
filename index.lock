@@ -1,5 +1,5 @@
 [animal_well]
-"0.3.1" = "e7b631a673e6c047d25d3e5dabd794b6fe815ccf058c614cf0f7edb165738797"
+"0.4.0" = "b141380ffe75132fa0382897a5d66a9aa4242d9be3639c2d945a7464bbf5c236"
 
 [aus]
 "1.0.0-beta" = "b8ad181425b59fc83c4cd6525c3b860e2cb554ab45d4f3b887c78d20f686259e"
@@ -98,6 +98,9 @@
 [manual_stray_arnold0]
 "0.0.2" = "6823973610228f7245705e9cf00cab5d479cd8b00924af429d88ace0faad8a69"
 
+[manual_xchallengemegamanxlegacycollections_pizzaking405]
+"0.0.1" = "ffa87ecf9d6da926945b230d3973ab1dd376f47ab365d884ed03885cd99d8d28"
+
 [megamix]
 "1.0.0-beta" = "489bf9fd5ddf3683d7a1428a5c06e162e69ad88ef61c301ee7646eba67e5760b"
 
@@ -141,7 +144,7 @@
 "2.1.2" = "c0faf235919e62fb3c252dd07e49800648d89eb3ea1882b6c2e3ae6d41cd4cbf"
 
 [pokemon_frlg]
-"0.5.4-beta" = "7e724d594d443220ea6ac763ff8221c6bbdead8f3ac63f9b7d15a99c989b2f80"
+"0.6.0-beta" = "eb30bfd7b5e902be8167e4f9538f23b3acf9be4db3b2ef37e0214280463f6990"
 
 [pseudoregalia]
 "0.7.2" = "f4731e1a80fba6129f7c6db68775e839ce8207214422f00bac6505dea2e38dcb"
