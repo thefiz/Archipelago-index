@@ -1,0 +1,6 @@
+name = "Astalon"
+home = "https://discord.com/channels/731205301247803413/1211521722881286164"
+default_url = "https://github.com/drtchops/Archipelago-Astalon/releases/download/v{{version}}/astalon.apworld"
+
+[versions]
+"0.16.0" = {}
