@@ -3,4 +3,4 @@ home = "https://discord.com/channels/731205301247803413/1172631093837570068"
 # XXX: When updating, rezip with the LICENSE
 
 [versions]
-"0.2.12" = { local = "../apworlds/metroidprime-0.2.12.apworld" }
+"0.3.3" = { local = "../apworlds/metroidprime-0.3.3.apworld" }
