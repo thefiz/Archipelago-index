@@ -2,4 +2,4 @@ name = "Jak & Daxter"
 home = "https://discord.com/channels/731205301247803413/1138467653552451606"
 
 [versions]
-"0.0.10" = { url = "https://github.com/ArchipelaGOAL/Archipelago/releases/download/alpha-v0.0.10/jakanddaxter.apworld" }
+"0.0.11" = { url = "https://github.com/ArchipelaGOAL/Archipelago/releases/download/alpha-v0.0.11/jakanddaxter.apworld" }
