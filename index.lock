@@ -1,5 +1,23 @@
+[adventure]
+"0.5.0" = "none"
+
+[ahit]
+"0.5.0" = "none"
+
+[alttp]
+"0.5.0" = "none"
+
 [animal_well]
 "0.4.0" = "b141380ffe75132fa0382897a5d66a9aa4242d9be3639c2d945a7464bbf5c236"
+
+[apsudoku]
+"0.5.0" = "none"
+
+[aquaria]
+"0.5.0" = "none"
+
+[archipidle]
+"0.5.0" = "none"
 
 [astalon]
 "0.16.0" = "9fcfcd7b505034e203f88846e8abe6911cee5e6515ce31a25a3a339fea964ce0"
@@ -11,8 +29,17 @@
 "1.8.1" = "0b78c06d9dc4e1677ddde1021be4690a5bffaee088abc0759b11360c88a873e1"
 "1.9.0" = "c8ba545d9205beaac5a301edd84a6ec8a08f5e74bdf19d3652c1ffe9a6dfef9e"
 
+[blasphemous]
+"0.5.0" = "none"
+
 [bloonstd6]
 "0.2.3" = "7ef893176c48c84dc3a958cab629d72add368b7f6538b1c6f8255911e02ec32e"
+
+[bomb_rush_cyberfunk]
+"0.5.0" = "none"
+
+[bumpstik]
+"0.5.0" = "none"
 
 [cave_story]
 "0.4.1" = "325bb747691d4d0266298c08746897051d210b79fde3dc4cbf00194b7daa936a"
@@ -20,23 +47,59 @@
 [celeste]
 "0.3.0" = "f02ee50d1bf9b44d710ceacf4d8659a960f9ad08262acd621f50847ffe765b78"
 
+[celeste64]
+"0.5.0" = "none"
+
+[checksfinder]
+"0.5.0" = "none"
+
 [checksmate]
 "0.2.7" = "7fe71f791e8b455ecafe0646f4fda1bd3def2888e4459dc673fa1876db9e2e50"
 
 [civ6]
 "0.4.3" = "dd970344c0b30bc3cc1bf53ca38a5dfbab31ae93d090e754c12c829d29b1b8ce"
 
+[clique]
+"0.5.0" = "none"
+
 [ctjot]
 "0.0.1" = "3ed87d43764eca4bdb342c8b1cb60717727f9184991a587761f45fbb685e74ac"
 
+[cv64]
+"0.5.0" = "none"
+
+[dark_souls_3]
+"0.5.0" = "none"
+
 [diddy_kong_racing]
 "0.2.6" = "c66fd37239b8225e2313f3fb8dcdf5a2812901748f9afd19cff92ad6483262e2"
+
+[dkc3]
+"0.5.0" = "none"
+
+[dlcquest]
+"0.5.0" = "none"
+
+[doom_1993]
+"0.5.0" = "none"
+
+[doom_ii]
+"0.5.0" = "none"
 
 [duke3d]
 "0.0.5" = "43fc62d9c376b08c9aa88569d39fb0eb1e713bb902b00ea88b05259afe9b5e4c"
 
 [earthbound]
 "2.0.1" = "0244408327f9720aebe42d904f6cadcc15a07e2e5291d3280214c4379591814a"
+
+[factorio]
+"0.5.0" = "none"
+
+[ff1]
+"0.5.0" = "none"
+
+[ffmq]
+"0.5.0" = "none"
 
 [ffps]
 "0.0.1" = "f6c6f883f75d20b0bb8935f330748ed0059f685a30f6408bdbf332c948c82114"
@@ -47,8 +110,20 @@
 [fnafw]
 "0.0.1" = "40dd1fc7e887ab377f0e8e0e6f148c7554a99e9a030e2623f1590dafb31cdedc"
 
+[generic]
+"0.5.0" = "none"
+
 [hades]
 "0.12.3" = "255b298c736e048fb1e08f52b17ba1d09038f7939701ebe5ea5cef54d960aed7"
+
+[heretic]
+"0.5.0" = "none"
+
+[hk]
+"0.5.0" = "none"
+
+[hylics2]
+"0.5.0" = "none"
 
 [inscryption]
 "0.3.0" = "3b83cfcbb69370d78589b9b492c40bd63c9201a8fc30f82d6861ad40ff443b73"
@@ -62,8 +137,14 @@
 [jakanddaxter]
 "0.0.11" = "c61d35edcdb14beb5665c6e7e16ebb33bec27f1b493f9d18153476d70aff7753"
 
+[kdl3]
+"0.5.0" = "none"
+
 [kh1]
 "2.3.1" = "dc2775e09d685fea39e0a5e9d4dbc8845a82154a35fb038481efd232f40f613b"
+
+[kh2]
+"0.5.0" = "none"
 
 [khcom]
 "1.0.0" = "c9631cccbb526b9db335e308b1275f1ccea24a88e883ccf948d99396643f6c7f"
@@ -71,14 +152,26 @@
 [khrecom]
 "1.4.1" = "de91d41d73f3123c3fe8f06b8dc28953f31caf721c2b8d606eb90f3350aa540b"
 
+[ladx]
+"0.5.0" = "none"
+
+[landstalker]
+"0.5.0" = "none"
+
 [lethal_company]
 "0.6.9-beta" = "91aa53279b56ea25eb0d1d967075811e473d411931ba31ccecdcd4a7d2ae44b3"
 
 [lil_gator_game]
 "1.0.1" = "6e1250a5915ac1f8a0530e0adcd5d44e8c8dd7fef307ef4db06dd25e3426fb3b"
 
+[lingo]
+"0.5.0" = "none"
+
 [lol]
 "0.1.5" = "a203c338b0028b82fb5d9c7196133e766f09b1d096ec4ee5c494b3d47a33a11b"
+
+[lufia2ac]
+"0.5.0" = "none"
 
 [manual_EuroTruckSim2_bdi]
 "0.0.3" = "bdb473c957f79a5f2b9991e323057f0f2b49348677e4908844c207224fb0fc74"
@@ -110,8 +203,17 @@
 [megamix]
 "1.0.0-beta" = "489bf9fd5ddf3683d7a1428a5c06e162e69ad88ef61c301ee7646eba67e5760b"
 
+[meritous]
+"0.5.0" = "none"
+
+[messenger]
+"0.5.0" = "none"
+
 [metroidprime]
 "0.3.3" = "5916bdcd877af808cbd205a190388fb4e7632cb23236db160375e3112314f05c"
+
+[minecraft]
+"0.5.0" = "none"
 
 [minit]
 "0.6.4" = "ab182f0f1ed91356368f03792090f8face00161a80f41cf337a0a817ce0dfe63"
@@ -119,14 +221,29 @@
 [mk64]
 "0.2.1-c" = "19b04e0aebe6eebb59a6db25be6790ef93e98fbecc91059d9cee17ec8a90dbc1"
 
+[mlss]
+"0.5.0" = "none"
+
+[mmbn3]
+"0.5.0" = "none"
+
 [mmx3]
 "1.2.1" = "03970084642bdbfa8348768ea9c84aa1fa36e863282a4b557067503bd898f49e"
 
 [monster_sanctuary]
 "1.1.4" = "0a9b37e1a0fc0765c35474a3f0bb816515d93ff9942abcb3cdc8dfaf4d092a84"
 
+[musedash]
+"0.5.0" = "none"
+
 [mzm]
 "0.1.2" = "9bd2e017ecab52d373196161033be8287c58af9ffef9520c9c7ffabb22d703cb"
+
+[noita]
+"0.5.0" = "none"
+
+[oot]
+"0.5.0" = "none"
 
 [openrct2]
 "0.1.13-beta" = "aafba6482130787396ee01a5ebe8ac44508953514e69ffdb2ca41d9a14c6fdee"
@@ -141,6 +258,9 @@
 "0.2.4" = "92d6e4b6c273251db0721256179bb0e22a34363131a666ff364f5257febdd84b"
 "0.2.5" = "598df063f32b7481502138c6a538d0bdab63c6698545ee15780b57bcc7479d27"
 
+[overcooked2]
+"0.5.0" = "none"
+
 [papermario]
 "0.4.0" = "c7e68f6adff176cde3e22becee658734cc94453d8942db9a24a8832e2eccc461"
 
@@ -149,8 +269,14 @@
 "2.1.1" = "707db847e5ea961b46ac3c622afffaecf6c6bd0b62b9e18feaf627c083c88fc8"
 "2.1.2" = "c0faf235919e62fb3c252dd07e49800648d89eb3ea1882b6c2e3ae6d41cd4cbf"
 
+[pokemon_emerald]
+"0.5.0" = "none"
+
 [pokemon_frlg]
 "0.6.2-beta" = "6cc0a4df28ded2312af3f3eefce8574957a72a5f124671a0f723aca37a2a7973"
+
+[pokemon_rb]
+"0.5.0" = "none"
 
 [pseudoregalia]
 "0.7.2" = "f4731e1a80fba6129f7c6db68775e839ce8207214422f00bac6505dea2e38dcb"
@@ -158,14 +284,57 @@
 [psychonauts]
 "0.7.0" = "4e4a129f54fd915f3aeb32ac37efb22b0d0500cb9789cdcbd318c84d68f72259"
 
+[raft]
+"0.5.0" = "none"
+
 [reventure]
 "0.12.1" = "db9570106273b995bf8cef29a70a5baba098f45f0a3e8294f757eafca724fabb"
+
+[rogue_legacy]
+"0.5.0" = "none"
+
+[ror2]
+"0.5.0" = "none"
+
+[sa2b]
+"0.5.0" = "none"
 
 [sadx]
 "0.6.1" = "4b25145d0a8f2329e1788385b581aa062f69df2c4bd7b3fa7721eb760f49e0ea"
 
+[sc2]
+"0.5.0" = "none"
+
+[shivers]
+"0.5.0" = "none"
+
+[shorthike]
+"0.5.0" = "none"
+
+[sm]
+"0.5.0" = "none"
+
+[sm64ex]
+"0.5.0" = "none"
+
+[smw]
+"0.5.0" = "none"
+
+[smz3]
+"0.5.0" = "none"
+
+[soe]
+"0.5.0" = "none"
+
+[spire]
+"0.5.0" = "none"
+
 [stardew_valley]
+"0.5.0" = "none"
 "6.4.5" = "43e6582657d1510aca741386734519af241e46759f0c80df5bd74d7c41652bc3"
+
+[subnautica]
+"0.5.0" = "none"
 
 [superjunkoid]
 "0.0.1" = "6c0cda1435a3ab24b282cedccfa57b6b9ea25c79684afdaf90cfd1c4ccb6919a"
@@ -176,8 +345,23 @@
 [tboir]
 "0.0.11" = "17c0be7f400b6842cd8843350930c362b6048ea6a7e41e32a939d250577677df"
 
+[terraria]
+"0.5.0" = "none"
+
+[timespinner]
+"0.5.0" = "none"
+
+[tje]
+"0.0.1" = "6ec5c36be6311e5da6ccb4635d4a2db2b720b257fa617d0fc1612a0d778a342c"
+
+[tloz]
+"0.5.0" = "none"
+
 [tloz_oos]
 "7.2.1" = "5751c9c0fbc59b3b836982dde65a4a9a4355fc20fcf797bd8d659fa00963bb17"
+
+[tunic]
+"0.5.0" = "none"
 
 [tww]
 "2.5.1" = "ba16461769feb74370970ea275ddf8a544adeeeb78767fc7e2a10bb941eb3d91"
@@ -185,8 +369,32 @@
 [ultrakill]
 "2.2.2" = "274443b12c6377c9d431643c0e0440c979d5aac2f6ef00a0ef5ac1316710b1d6"
 
+[undertale]
+"0.5.0" = "none"
+
+[v6]
+"0.5.0" = "none"
+
+[wargroove]
+"0.5.0" = "none"
+
+[witness]
+"0.5.0" = "none"
+
 [wl]
 "1.2.2" = "e81048e88643049bc5fd7f69bf9c20e4afd2d08c36cea0be747813ac98acae25"
 
 [yachtdice]
 "2.1.1" = "dd6fee7b7fe0d1082487bb2dee30d53481337765de780e55809d67b99dea1489"
+
+[yoshisisland]
+"0.5.0" = "none"
+
+[yugioh06]
+"0.5.0" = "none"
+
+[zillion]
+"0.5.0" = "none"
+
+[zork_grand_inquisitor]
+"0.5.0" = "none"
