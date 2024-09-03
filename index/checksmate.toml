@@ -1,4 +1,4 @@
-name = "Checksmate"
+name = "ChecksMate"
 home = "https://discord.com/channels/731205301247803413/1033159819114319892"
 default_url = "https://github.com/chesslogic/chessv/releases/download/v{{version}}/checksmate.apworld"
 

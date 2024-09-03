@@ -1,4 +1,5 @@
-name = "Freddy Fazbear's Pizzeria Simulator"
+display_name = "Freddy Fazbear's Pizzeria Simulator"
+name = "FFPS"
 home = "https://discord.com/channels/731205301247803413/1078423429310582806"
 
 [versions]

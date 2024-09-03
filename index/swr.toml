@@ -1,4 +1,4 @@
-name = "Star Wars: Episode 1 Racer"
+name = "Star Wars Episode I Racer"
 home = "https://discord.com/channels/731205301247803413/1207274588120158269"
 default_url = "https://github.com/wcolding/SWR_apworld/releases/download/v{{version}}/swr.apworld"
 

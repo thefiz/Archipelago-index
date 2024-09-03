@@ -1,4 +1,5 @@
-name = "Manual: Diddy Kong Racing"
+display_name = "Manual: Diddy Kong Racing"
+name = "Manual_DiddyKongRacing_DecoyTroy"
 
 [versions]
 "0.0.1" = { local = "../apworlds/manual_diddykongracing_decoytroy-0.0.1.apworld" }

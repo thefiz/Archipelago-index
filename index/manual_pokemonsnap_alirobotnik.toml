@@ -1,4 +1,5 @@
-name = "Manual: Pokemon Snap (N64)"
+display_name = "Manual: Pokemon Snap (N64)"
+name = "Manual_PokemonSnap_AliRobotnik"
 home = "https://discord.com/channels/1097532591650910289/1231737689951178773"
 default_url = "https://github.com/AliRobotnik/PokemonSnap-Archipelago-Manual/releases/download/V{{version}}/manual_pokemonsnap_alirobotnik.apworld"
 
