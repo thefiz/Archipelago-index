@@ -1,5 +1,6 @@
 name = "ToeJam and Earl"
 home = "https://discord.com/channels/731205301247803413/1204326236415856671"
+default_url = "https://github.com/IgnisUmbrae/TJE-Archipelago/releases/download/v{{version}}/tje.apworld"
 
 [versions]
-"0.0.1" = { local = "../apworlds/tje-0.0.1.apworld" }
+"0.1.3" = {}
