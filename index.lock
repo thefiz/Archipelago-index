@@ -35,6 +35,9 @@
 [cvcotm]
 "0.4.0" = "e48c80eab05f4dcc360e5b5b15180afa75b24d2544874738e42ee8b0154fee38"
 
+[dark_souls_3]
+"3.0.0-beta.24" = "ef3aaf9c4c1a4dfc875c98ceadb75e727b633cd2d96e814e6b46beab5f48c522"
+
 [diddy_kong_racing]
 "0.2.6" = "c66fd37239b8225e2313f3fb8dcdf5a2812901748f9afd19cff92ad6483262e2"
 
@@ -88,9 +91,6 @@
 
 [lil_gator_game]
 "1.0.1" = "6e1250a5915ac1f8a0530e0adcd5d44e8c8dd7fef307ef4db06dd25e3426fb3b"
-
-[lol]
-"0.1.5" = "a203c338b0028b82fb5d9c7196133e766f09b1d096ec4ee5c494b3d47a33a11b"
 
 [manual_EuroTruckSim2_bdi]
 "0.0.3" = "bdb473c957f79a5f2b9991e323057f0f2b49348677e4908844c207224fb0fc74"
