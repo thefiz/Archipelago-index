@@ -6,23 +6,20 @@ task-defaults:
     volumes:
       - /builds/worker/checkouts
       - /builds/worker/.cache
-  run-on-tasks-for: ["github-push"]
+  run-on-tasks-for: ["github-pull-request", "github-pull-request-untrusted"]
   optimization:
     skip-unless-changed: ["index.toml", "index/**"]
 
 tasks:
-  index:
+  diff:
     worker-type: linux-small
-    description: Run apwm update
+    description: Run apwm diff
     run:
       using: run-task
       command: >-
-        cd $VCS_PATH && apwm update -i ./ && git diff
+        apwm diff -i ./ -f https://github.com/Eijebong/Archipelago-index -o /builds/worker/diffs
     worker:
       artifacts:
-        - type: file
-          path: /builds/worker/checkouts/vcs/index.lock
-          name: public/build/index.lock
         - type: directory
           path: /builds/worker/diffs
           name: public/diffs
