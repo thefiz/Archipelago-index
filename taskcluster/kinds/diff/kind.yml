@@ -1,23 +1,31 @@
 ---
+transforms:
+  - src.transforms.github:transforms
+
 task-defaults:
   worker:
-    docker-image: ghcr.io/eijebong/apwm:main-47
+    docker-image: ghcr.io/eijebong/apwm:main-50
     max-run-time: 1800
     volumes:
       - /builds/worker/checkouts
       - /builds/worker/.cache
+    taskcluster-proxy: true
   run-on-tasks-for: ["github-pull-request", "github-pull-request-untrusted"]
   optimization:
     skip-unless-changed: ["index.toml", "index/**"]
 
 tasks:
-  diff:
+  index:
     worker-type: linux-small
     description: Run apwm diff
+    scopes:
+      - github:create-comment:Eijebong/Archipelago-index
     run:
       using: run-task
       command: >-
-        apwm diff -i ./ -f https://github.com/Eijebong/Archipelago-index -o /builds/worker/diffs
+        cd $VCS_PATH &&
+        apwm diff -i ./ -f https://github.com/Eijebong/Archipelago-index -o /builds/worker/diffs &&
+        /usr/bin/curl --header "Content-Type: application/json" ${TASKCLUSTER_PROXY_URL}/github/v1/repository/Eijebong/Archipelago-index/issues/${GITHUB_PR}/comments --data "{\"body\": \"[Review changes](https://apdiff.bananium.fr/${TASK_ID})\"}"
     worker:
       artifacts:
         - type: directory
