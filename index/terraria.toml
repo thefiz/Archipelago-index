@@ -1,3 +1,6 @@
 name = "Terraria"
 home = "https://archipelago.gg"
 supported = true
+
+[versions]
+"0.5.0+beta" = { local = "../apworlds/terraria-0.5.0+beta.apworld" }
