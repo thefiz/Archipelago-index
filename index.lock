@@ -10,6 +10,9 @@
 [aus]
 "1.0.0-beta" = "b8ad181425b59fc83c4cd6525c3b860e2cb554ab45d4f3b887c78d20f686259e"
 
+[balatro]
+"0.1.9-b" = "d1b41595f8f0d96ba1df2bb539cad1ad1a6218e49a3b0b5596ac05add1f64cf4"
+
 [banjo_tooie]
 "2.1.4" = "4c140d40860f6d743419bb31b85c9ca9a47771a5331ab1153d72a8041e6c9384"
 
@@ -117,6 +120,9 @@
 
 [manual_eurotrucksim2dlc_dopin]
 "0.0.1" = "f9b65b988980a2930e01f256e247b31e3e89b1c3d803c9f7d6d32e5fdc66fd25"
+
+[manual_mkwii_magnetico]
+"0.0.1+magnetico" = "731b011dd0c6efbcb01851fd8d4653c1a06dd7ae5828aa596e4bb7ac927e80f6"
 
 [manual_peggledeluxe_freezinater]
 "0.0.8" = "5ac77c6f3515bc94ac0199c84af80d51ee70b49b927ccf68fd3bf62ef6aa8f43"
