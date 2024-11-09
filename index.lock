@@ -135,6 +135,9 @@
 [manual_eurotrucksim2dlc_dopin]
 "0.0.1" = "f9b65b988980a2930e01f256e247b31e3e89b1c3d803c9f7d6d32e5fdc66fd25"
 
+[manual_mariopartyseries_rhythm]
+"1.0.2" = "c27fa8adc699916ae38ef76b6f1ac5d30b9fc9ab13ec777d0d08181bf2258ead"
+
 [manual_mkwii_magnetico]
 "0.0.1+magnetico" = "731b011dd0c6efbcb01851fd8d4653c1a06dd7ae5828aa596e4bb7ac927e80f6"
 
