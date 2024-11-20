@@ -190,6 +190,9 @@
 [openrct2]
 "0.1.13-beta" = "aafba6482130787396ee01a5ebe8ac44508953514e69ffdb2ca41d9a14c6fdee"
 
+[oribf]
+"0.2.0-alpha" = "3bb6c4b3ea43379ebeb2f0b06af20c1a6d377a450cac0bac6674450989008622"
+
 [osrs]
 "1.5.0-rc" = "c2443df1d6ebd42da193561f1f6ba0120d798bdc99c6bb0587604a92ec2efd40"
 
