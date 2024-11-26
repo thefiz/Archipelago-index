@@ -31,6 +31,7 @@
 
 [celeste]
 "0.3.0" = "f02ee50d1bf9b44d710ceacf4d8659a960f9ad08262acd621f50847ffe765b78"
+"0.4.0-alpha+unreleased" = "b98495eb4b8b0aa3b3de39f5b11151d54e21e955be63611687cfc179f63854a6"
 
 [checksmate]
 "0.2.7" = "7fe71f791e8b455ecafe0646f4fda1bd3def2888e4459dc673fa1876db9e2e50"
