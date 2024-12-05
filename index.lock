@@ -233,6 +233,9 @@
 [sgtpuzzles]
 "0.1.1-prealpha" = "7c71eceed46df04701c5cd8ef91fc0a6f2b81a839aa5bd7e6b6f20a10a090a05"
 
+[shadow_the_hedgehog]
+"0.0.8" = "a5d9ce0a8db01d7bd1d0e47f45c65e60c10ce96390de87fd1eba06fb506c96cd"
+
 [shapez]
 "0.5.3" = "57bf81347b63b3543fa2c86381f2d11130c649c657396c1a9c83291fd49e7e3e"
 
