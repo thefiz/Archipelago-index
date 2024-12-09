@@ -3,27 +3,13 @@ trust-domain: "ap"
 task-priority: low
 
 taskgraph:
-  cached-task-prefix: "ap.v2.archipelago-lobby"
+  cached-task-prefix: "ap.v2.archipelago-index"
   repositories:
-    archipelago_lobby:
-      name: "Archipelago-lobby"
+    archipelago_index:
+      name: "Archipelago-index"
 
   register: src:register
+  register: eije_taskgraph:register
 
 workers:
-  aliases:
-    linux-small:
-      provisioner: ap
-      implementation: docker-worker
-      os: linux
-      worker-type: linux-small
-    linux-medium:
-      provisioner: ap
-      implementation: docker-worker
-      os: linux
-      worker-type: linux-medium
-    images:
-      provisioner: ap
-      implementation: docker-worker
-      os: linux
-      worker-type: linux-medium
+  aliases: {}
