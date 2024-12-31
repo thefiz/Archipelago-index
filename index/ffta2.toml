@@ -1,4 +1,4 @@
-name = "Final Fantasy Tactics A2: Grimoire of the Rift"
+name = "Final Fantasy Tactics A2"
 home = "https://discord.com/channels/731205301247803413/1296095764518277143"
 default_url = "https://github.com/Rurusachi/Archipelago/releases/download/{{version}}/ffta2.apworld"
 
