@@ -148,6 +148,9 @@
 [manual_ets2_dopin]
 "0.1.0" = "1a83ff1facfbed399ac16ddeee0e2afda82449946ccac9b486bbf9d711bad8ee"
 
+[manual_mariokartds_xanderoni]
+"0.0.2" = "473940c6b72d6946779772650f69c4879e70aefe834649c97a113c1e7d3ecdbc"
+
 [manual_mariopartyseries_rhythm]
 "1.0.2" = "c27fa8adc699916ae38ef76b6f1ac5d30b9fc9ab13ec777d0d08181bf2258ead"
 
