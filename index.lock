@@ -136,6 +136,9 @@
 [lil_gator_game]
 "1.0.1" = "6e1250a5915ac1f8a0530e0adcd5d44e8c8dd7fef307ef4db06dd25e3426fb3b"
 
+[manual]
+"0.0.0+20241119" = "79dd839959630e6f2529baef8b5a827401eb5a026cbc068664a60f4001490cf4"
+
 [manual_EuroTruckSim2_bdi]
 "0.0.3" = "bdb473c957f79a5f2b9991e323057f0f2b49348677e4908844c207224fb0fc74"
 
@@ -166,6 +169,9 @@
 
 [manual_pizzatower_steph]
 "0.0.4" = "31deb36c5276045127a0b8b693b57c86088f86216d2f77555a1379fa4747f2d8"
+
+[manual_pokemonplatinum_linneus]
+"2.1.0" = "3e005fae863119b4e4074d864d926e0ca9c297d90f01f3c125a7f8ef5356a1ed"
 
 [manual_pokemonsnap_alirobotnik]
 "1.3.1" = "a04ac31c69c100ad2b3bbae30b29ddd8ea5f70535f908ce869c16c3becb809e1"
