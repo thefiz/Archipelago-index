@@ -137,9 +137,6 @@
 [lil_gator_game]
 "1.0.1" = "6e1250a5915ac1f8a0530e0adcd5d44e8c8dd7fef307ef4db06dd25e3426fb3b"
 
-[manual]
-"0.0.0+20241119" = "79dd839959630e6f2529baef8b5a827401eb5a026cbc068664a60f4001490cf4"
-
 [manual_EuroTruckSim2_bdi]
 "0.0.3" = "bdb473c957f79a5f2b9991e323057f0f2b49348677e4908844c207224fb0fc74"
 
@@ -199,6 +196,9 @@
 
 [manual_stray_arnold0]
 "0.0.2" = "6823973610228f7245705e9cf00cab5d479cd8b00924af429d88ace0faad8a69"
+
+[manual_ultimatemarvelvscapcom3_manualteam]
+"0.0.0+20241119" = "97f54af5e3a1ba9a1f89d3ee1b4de85f91e8a9d8ab942fbf10a29d2e4a9f3b3d"
 
 [manual_xchallengemegamanxlegacycollections_pizzaking405]
 "0.0.1" = "ffa87ecf9d6da926945b230d3973ab1dd376f47ab365d884ed03885cd99d8d28"
