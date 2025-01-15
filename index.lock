@@ -61,6 +61,9 @@
 [dome_keeper]
 "0.7.1" = "ab9c0dabde596a64dc337ab5c2d91a543a852ec714a0dd79ea1c5e03abc22ff0"
 
+[doronko_wanko]
+"0.3.0" = "6d7447ea7c9076ba1f815abd1c1cbb722aa594ceaca9823b72d9ea822bb7b358"
+
 [duke3d]
 "0.0.5" = "43fc62d9c376b08c9aa88569d39fb0eb1e713bb902b00ea88b05259afe9b5e4c"
 
