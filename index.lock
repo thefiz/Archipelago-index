@@ -158,6 +158,9 @@
 [manual_ets2_dopin]
 "0.1.0" = "1a83ff1facfbed399ac16ddeee0e2afda82449946ccac9b486bbf9d711bad8ee"
 
+[manual_ffdissidia_silasary]
+"0.0.3" = "0834dac93007298b6af3f300195f59ead483f0cdbc7b67d315fd4fdfc42cde3e"
+
 [manual_ffxivpotd_goomboss]
 "0.0.1-dopin" = "79d47581e7ee06a2d929671463d61c40efbc6a04579e44fb9887aebe53d461d0"
 
