@@ -76,6 +76,9 @@
 [enderlilies]
 "0.7.0" = "fdb9508c98b5bca7abefa427c31569bcb4225116eddaa3c43eaeca0a1a4c602c"
 
+[factorio_saws]
+"0.0.5" = "a520d6a9c6ad0e544df8ded04f397c807e6ec43ccf35a80aaa83d73eb453e685"
+
 [fe8]
 "0.3.2" = "e1c9b35c2949267367870c64a8cb1a33f614d8f78311028b91944c4a0ba4f2e9"
 
