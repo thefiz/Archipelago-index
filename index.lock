@@ -217,6 +217,9 @@
 [manual_stray_arnold0]
 "0.0.2" = "6823973610228f7245705e9cf00cab5d479cd8b00924af429d88ace0faad8a69"
 
+[manual_tmnf_dopin]
+"0.0.1" = "391f726448619aa1882bff5528e6b693fbdfde41d7ad216dc30818d45bea8f52"
+
 [manual_ultimatemarvelvscapcom3_manualteam]
 "0.0.0+20241119" = "97f54af5e3a1ba9a1f89d3ee1b4de85f91e8a9d8ab942fbf10a29d2e4a9f3b3d"
 
