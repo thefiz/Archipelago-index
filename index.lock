@@ -147,6 +147,7 @@
 
 [ladx_beta]
 "0.5.2+beta-10.2" = "13885df85a2263e2eddd4094170523ff4e8e7ef2657604828ec29e1b4d48b2fa"
+"0.5.2+beta-11.0" = "0a91e2b1f76faa0d95fa8deda8615e8afd6abf59f5c1290628020c423de7a997"
 
 [lethal_company]
 "0.6.9-beta" = "91aa53279b56ea25eb0d1d967075811e473d411931ba31ccecdcd4a7d2ae44b3"
