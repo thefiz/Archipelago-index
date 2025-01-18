@@ -64,6 +64,9 @@
 [diddy_kong_racing]
 "0.3.1" = "c928b1c54773c8d5c3fa4f58585ca7e388c6761491a12d86bc9f7171a0498a94"
 
+[dkc2]
+"2.0.0" = "f4305375d0963982aca257ba710e9e1c93e2c57ece9b96a8226b2b4bc672b92b"
+
 [dome_keeper]
 "0.7.1" = "ab9c0dabde596a64dc337ab5c2d91a543a852ec714a0dd79ea1c5e03abc22ff0"
 
