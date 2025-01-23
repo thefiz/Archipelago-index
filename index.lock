@@ -162,6 +162,9 @@
 [manual_PLA_miro]
 "1.1.1" = "3e97b67a0a0111b7fc445e7fbe3b193038ef1c7562451e2010a447ce75852abd"
 
+[manual_betrayal_axxroy]
+"0.0.2" = "324baa6a67fd10404f6ebd0eeff44eff7d2817b71048d11ced2bfe9c42631128"
+
 [manual_crashteamracingnitrofueled_hallstead]
 "4.1.0" = "ccd30e9769e6aeb632c61227dbcc0642ebf2215ca39ac52d55638a4d65f76671"
 "4.5.1" = "adafe7e2e2c4b3d8d37dee21bd3a94e75459699754ed271f387392517e767324"
