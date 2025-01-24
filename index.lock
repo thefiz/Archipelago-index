@@ -195,8 +195,8 @@
 [manual_mkwii_magnetico]
 "0.0.1+magnetico" = "731b011dd0c6efbcb01851fd8d4653c1a06dd7ae5828aa596e4bb7ac927e80f6"
 
-[manual_monsterhunterworldsaviweek_panic]
-"0.0.1" = "c986af053d694f89d68376ae32238c7fabde48bc3a674737e99e86fbee14fe1a"
+[manual_monsterhunterworld_panic]
+"0.0.2" = "4030433caf12c318ece252fc0771fa713d37957c07e55fdbb3054312a48e512b"
 
 [manual_peggledeluxe_freezinater]
 "0.0.8" = "5ac77c6f3515bc94ac0199c84af80d51ee70b49b927ccf68fd3bf62ef6aa8f43"
