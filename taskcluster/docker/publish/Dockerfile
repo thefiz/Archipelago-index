@@ -1,10 +1,10 @@
 FROM alpine:latest
 
-RUN apk update && apk add bash coreutils python3 openssh-client git curl jq kubectl
+RUN apk update && apk add bash coreutils python3 openssh-client git curl jq
 COPY setup-ssh.sh /usr/local/bin/setup-ssh.sh
-COPY send_webhook.sh /usr/local/bin/send_webhook.sh
+COPY merge.sh /usr/local/bin/merge.sh
+RUN chmod +x /usr/local/bin/merge.sh
 RUN chmod +x /usr/local/bin/setup-ssh.sh
-RUN chmod +x /usr/local/bin/send_webhook.sh
 
 # %include-run-task
 

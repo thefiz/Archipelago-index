@@ -9,7 +9,7 @@ transforms:
 
 task-defaults:
   worker:
-    docker-image: {in-tree: publish}
+    docker-image: {in-tree: merge}
     max-run-time: 1800
   worker-type: "linux-small"
   run-on-tasks-for: ["github-issue-comment"]
@@ -30,7 +30,6 @@ tasks:
       diff-index: diff-index
       merge-pr: merge-pr
     if-dependencies:
-      - merge-pr
       - diff-index
     description: Push changed index.lock
     scopes:
@@ -41,14 +40,13 @@ tasks:
         cd $VCS_PATH && /usr/local/bin/setup-ssh.sh &&
         (git commit -am "Update lockfile" || exit 0) &&
         (git remote add repo git@github.com:Eijebong/Archipelago-index.git || true) &&
-        git push repo HEAD:main
-      checkout:
-        archipelago_index:
-          head_repository: "{base_repository}"
-          head_ref: "{base_ref}"
-          head_rev: null
+        git pull -r origin main &&
+        git push repo HEAD:main &&
+        /usr/local/bin/merge.sh
     fetches:
       diff-index:
         - artifact: index.lock
           extract: false
           dest: /builds/worker/checkouts/vcs
+    scopes:
+      - secrets:get:Archipelago-index
