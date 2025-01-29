@@ -1,7 +1,6 @@
 loader: taskgraph.loader.transform:loader
 
 transforms:
-  - taskgraph.transforms.task_context:transforms
   - src.transforms.merge:transforms
   - taskgraph.transforms.run:transforms
   - taskgraph.transforms.task:transforms
@@ -9,26 +8,18 @@ transforms:
 
 task-defaults:
   worker:
-    docker-image: {in-tree: merge}
+    docker-image: {in-tree: publish}
     max-run-time: 1800
   worker-type: "linux-small"
   run-on-tasks-for: ["github-issue-comment"]
 
 kind-dependencies:
   - diff
-  - merge
 
 tasks:
   index:
-    task-context:
-      from-parameters:
-        base_ref: base_ref
-        base_repository: base_repository
-      substitution-fields:
-        - run.checkout.archipelago_index
     dependencies:
       diff-index: diff-index
-      merge-pr: merge-pr
     if-dependencies:
       - diff-index
     description: Push changed index.lock
