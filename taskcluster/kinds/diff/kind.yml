@@ -34,7 +34,9 @@ tasks:
       using: run-task
       command: >-
         cd $VCS_PATH &&
-        git pull -r origin main &&
+        git config --global user.name "Nobody" &&
+        git config --global user.email "nobody@localhost" &&
+        (git pull -r origin main || (git rebase --abort && exit 1)) &&
         mkdir -p /builds/worker/diffs &&
         apwm update -i ./ &&
         apwm diff -i ./ -f https://github.com/Eijebong/Archipelago-index -r {base_rev} -o /builds/worker/diffs &&
