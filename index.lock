@@ -433,6 +433,9 @@
 [undertale]
 "2.0.0+beta" = "95d2328fb8ef7de165c5cd1fea63a4d45ba069d143ffa42a8f6f5cbcc0bbb421"
 
+[voidstranger]
+"0.8.0" = "77a8c8cea33113762ae6e5f5cc53b9b610ccfddf5830977a510cbc3f135f626c"
+
 [wl]
 "1.2.5" = "1e1a3de27fdff19e390f0fda5ea968a4802737dc77a881147888556ae3f183d0"
 
