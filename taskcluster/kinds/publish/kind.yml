@@ -31,7 +31,6 @@ tasks:
         cd $VCS_PATH && /usr/local/bin/setup-ssh.sh &&
         (git commit -am "Update lockfile" || exit 0) &&
         (git remote add repo git@github.com:Eijebong/Archipelago-index.git || true) &&
-        git pull -r origin main &&
         /usr/local/bin/merge.sh &&
         git pull -r origin main &&
         git push repo HEAD:main
