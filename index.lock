@@ -416,7 +416,7 @@
 
 [tloz_ooa]
 "0.2.5+ishigh" = "b049eceb9ad8d3b5226cd00734864979e33976b4dc4fbf8925da311d24102db0"
-"0.3.1" = "fac1d6f4c8554ee31a4b5568d9a4c46e6b08077e6dafdaddef3bed9ec2d05154"
+"0.3.2" = "c9bb597a25f04c3cbee31d5f90ac0452312efc87c11d470cdd0dcb53e9d9e486"
 
 [tloz_oos]
 "7.2.2+ishigh-2" = "762e4a7eea4bbc93925c03f63ba2772886ecf99b6aec2e7313ddbfdf4689f6d1"
