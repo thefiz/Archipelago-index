@@ -38,6 +38,6 @@ This makes it easier to update and can be used to automatically fetch newer vers
 # Criterias for inclusion
 
 - The apworld must not be banned on the archipelago server for copyright reasons
-- The apworld must not contain big unknown binary blobs that we cannot trace back to trusted sources
+- The apworld must not contain big unknown executable binary blobs that we cannot trace back to trusted sources
 - The apworld must not contain obvious flaws that will make life difficult for anyone trying to generate large multiworlds. That includes direct usage of the random module, obvious logic flaws, test failures that are deemed problematic...
 - The apworld must not make any use of a remote resource during generation.
