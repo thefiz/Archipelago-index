@@ -14,7 +14,7 @@ task-defaults:
     docker-image: ghcr.io/eijebong/archipelago-yaml-checker:latest
     volumes:
       - /builds/worker/checkouts
-  run-on-tasks-for: ["github-issue-comment"]
+  run-on-tasks-for: []
 
 kind-dependencies:
   - diff

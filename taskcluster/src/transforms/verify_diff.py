@@ -17,38 +17,25 @@ def generate_tasks(config, tasks):
         print("Not a PR, ignoring transform verify_diff, graph will be incomplete. Set `ARCHIPELAGO_INDEX_PULL_REQUEST_NUMBER` to a valid PR number")
         return
 
-    comment = os.environ.get("TASKCLUSTER_COMMENT")
-    if comment not in ["test", "r+", "test-all"]:
-        print("Not generating verify tasks as it didn't come from a valid comment:", comment)
-        return
+    diff_task = find_task_id(f"{DIFF_INDEX_PATH}.{pr_number}.latest")
+    if diff_task is None:
+        raise Exception("Couldn't find diff task for current PR")
 
-    if comment in ["test", "r+"]:
-        diff_task = find_task_id(f"{DIFF_INDEX_PATH}.{pr_number}.latest")
-        if diff_task is None:
-            raise Exception("Couldn't find diff task for current PR")
+    tasks = list(tasks)
+    for artifact in list_artifacts(diff_task):
+        if not artifact['name'].startswith('public/diffs/'):
+            continue
 
-        tasks = list(tasks)
-        for artifact in list_artifacts(diff_task):
-            if not artifact['name'].startswith('public/diffs/'):
-                continue
+        diff_name = artifact['name'].removeprefix('public/diffs/')
+        diff_response = get_artifact(diff_task, artifact['name'])
+        if diff_response.status != 200:
+            raise Exception("Failed to fetch artifact {}".format(artifact["name"]))
+        diff = json.loads(diff_response.read())
 
-            diff_name = artifact['name'].removeprefix('public/diffs/')
-            diff_response = get_artifact(diff_task, artifact['name'])
-            if diff_response.status != 200:
-                raise Exception("Failed to fetch artifact {}".format(artifact["name"]))
-            diff = json.loads(diff_response.read())
-
-
-            for task in tasks:
-                env = task["worker"].setdefault("env", {})
-                env["TEST_ALL"] = "0"
-                yield from create_check_tasks_from_diff(task, diff)
-
-    if comment in ["test-all"]:
         for task in tasks:
             env = task["worker"].setdefault("env", {})
-            env["TEST_ALL"] = "1"
-            yield from create_check_tasks_for_all(task, pr_number)
+            env["TEST_ALL"] = "0"
+            yield from create_check_tasks_from_diff(task, diff)
 
 
 def create_check_tasks_from_diff(task, diff):
@@ -59,26 +46,6 @@ def create_check_tasks_from_diff(task, diff):
             continue
         _, new_version = version_range.split('...', 1)
         yield create_task_for_apworld(task, world_name, apworld_name, new_version, {"diff": "diff-index"})
-
-
-
-def create_check_tasks_for_all(task, pr_number):
-    index = toml.load("index.toml")
-    for world_path in os.listdir("index/"):
-        world = toml.load(os.path.join("index", world_path))
-        if world.get("disabled"):
-            continue
-
-        world_name = world["name"]
-
-        apworld_name = Path(world_path).stem
-        versions = list(world.get("versions", {}).keys())
-        if world.get("supported", False):
-            versions.append(index["archipelago_version"])
-
-
-        for version in versions:
-            yield create_task_for_apworld(task, world_name, apworld_name, version)
 
 
 def create_task_for_apworld(original_task, world_name, apworld_name, version, dependencies=None):

@@ -1,7 +1,6 @@
 loader: taskgraph.loader.transform:loader
 
 transforms:
-  - src.transforms.merge:transforms
   - src.transforms.github:transforms
   - taskgraph.transforms.run:transforms
   - taskgraph.transforms.task:transforms
@@ -12,7 +11,7 @@ task-defaults:
     docker-image: {in-tree: publish}
     max-run-time: 1800
   worker-type: "linux-small"
-  run-on-tasks-for: ["github-issue-comment"]
+  run-on-tasks-for: []
 
 kind-dependencies:
   - diff
