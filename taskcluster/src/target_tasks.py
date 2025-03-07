@@ -66,7 +66,7 @@ def rplus_target_task(full_task_graph, parameters, graph_config):
 
 @register_target_task("fuzz")
 def merge_target_task(full_task_graph, parameters, graph_config):
-    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"check", "ap-test"}])
+    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"fuzz"}])
 
 @register_target_task("merge")
 def merge_target_task(full_task_graph, parameters, graph_config):
