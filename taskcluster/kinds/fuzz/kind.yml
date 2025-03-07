@@ -1,0 +1,65 @@
+loader: taskgraph.loader.transform:loader
+
+transforms:
+  - src.transforms.key_per_tasks_for:transforms
+  - src.transforms.per_apworld:transforms
+  - src.transforms.github:transforms
+  - taskgraph.transforms.run:transforms
+  - taskgraph.transforms.task:transforms
+  - eije_taskgraph.transforms.common:transforms
+
+task-defaults:
+  worker-type: linux-medium
+  worker:
+    max-run-time: 1800
+    docker-image: ghcr.io/eijebong/archipelago-yaml-checker:latest
+    volumes:
+      - /builds/worker/checkouts
+  run-on-tasks-for: []
+
+kind-dependencies:
+  - diff
+
+tasks:
+  apworld:
+    description: Fuzz an apworld
+    scopes:
+      by-tasks-for:
+        github-issue-comment: [github:create-comment:Eijebong/Archipelago-index]
+        default: []
+    run:
+      using: run-task
+      command: >-
+        cd $VCS_PATH &&
+        mkdir -p /ap/archipelago/fuzz_output/ &&
+        apwm download -i ./ -d /tmp/download -p "${TEST_APWORLD_NAME}:${TEST_APWORLD_VERSION}" &&
+        (
+          ([[ -f "/ap/supported_worlds/${TEST_APWORLD_NAME}-${TEST_APWORLD_VERSION}.apworld" ]] && cp "/ap/supported_worlds/${TEST_APWORLD_NAME}-${TEST_APWORLD_VERSION}.apworld" "/ap/archipelago/worlds/${TEST_APWORLD_NAME}.apworld") ||
+          ([[ -f "/tmp/download/${TEST_APWORLD_NAME}-${TEST_APWORLD_VERSION}.apworld" ]] && cp "/tmp/download/${TEST_APWORLD_NAME}-${TEST_APWORLD_VERSION}.apworld" "/ap/archipelago/worlds/${TEST_APWORLD_NAME}.apworld") ||
+          true
+        ) &&
+        cd /ap/archipelago && unshare -r -n uv run -n python3 -O fuzz.py -g "${TEST_APWORLD_NAME}" -r100 -n1 -t10 -j8;
+        export STATUS=$?;
+        (cd /ap/archipelago && tar caf fuzz_output.tar.gz fuzz_output) || exit 1;
+        exit $STATUS
+    worker:
+      artifacts:
+        - type: file
+          path: /ap/archipelago/fuzz_output.tar.gz
+          name: public/fuzz_output.tar.gz
+    ap-deps:
+      - check
+    dependencies:
+      by-tasks-for:
+        github-push: {}
+        default:
+          diff: diff-index
+    fetches:
+      by-tasks-for:
+        github-push: {}
+        default:
+          diff:
+            - artifact: index.lock
+              extract: false
+              dest: /builds/worker/checkouts/vcs
+

@@ -64,6 +64,9 @@ def merge_target_task(full_task_graph, parameters, graph_config):
 def rplus_target_task(full_task_graph, parameters, graph_config):
     return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"check", "ap-test", "publish"}], force=["publish"])
 
+@register_target_task("fuzz")
+def merge_target_task(full_task_graph, parameters, graph_config):
+    return _filter_for_pr([(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"check", "ap-test"}])
 
 @register_target_task("merge")
 def merge_target_task(full_task_graph, parameters, graph_config):
@@ -79,16 +82,21 @@ def default_target_task(full_task_graph, parameters, graph_config):
 
 def try_target_tasks(full_task_graph, try_config):
     targets = parse_try_config(try_config)
-    try_tasks = [(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"ap-test", "check"}]
+    try_tasks = [(label, task) for label, task in full_task_graph.tasks.items() if task.kind in {"ap-test", "check", "fuzz"}]
     filtered_tasks = []
 
     for (kind, target) in targets.items():
         if target is None:
-            filtered_tasks.extend(label for label, task in try_tasks if task.kind == kind)
+            if kind == "fuzz":
+                filtered_tasks.extend(label for label, task in _only_latest(try_tasks) if task.kind == kind)
+            else:
+                filtered_tasks.extend(label for label, task in try_tasks if task.kind == kind)
         else:
             for apworld in target:
-                filtered_tasks.extend(label for label, task in try_tasks if task.kind == kind and apworld in label)
-
+                if kind == "fuzz":
+                    filtered_tasks.extend(label for label, task in _only_latest(try_tasks) if task.kind == kind and apworld in label)
+                else:
+                    filtered_tasks.extend(label for label, task in try_tasks if task.kind == kind and apworld in label)
 
     return filtered_tasks
 
@@ -120,3 +128,5 @@ def parse_try_config(try_config):
 
     return targets
 
+def _only_latest(tasks):
+    return [(label, task) for label, task in tasks if task.attributes.get("latest", False)]
