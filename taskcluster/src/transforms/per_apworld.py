@@ -15,13 +15,14 @@ def generate_tasks(config, tasks):
         yield from create_tasks_for_all(config, task)
 
 
-def create_task_for_apworld(config, original_task, world_name, apworld_name, version, ap_dependencies):
+def create_task_for_apworld(config, original_task, world_name, apworld_name, version, ap_dependencies, latest):
     task = copy.deepcopy(original_task)
     env = task["worker"].setdefault("env", {})
     env["TEST_WORLD_NAME"] = world_name
     env["TEST_APWORLD_NAME"] = apworld_name
     env["TEST_APWORLD_VERSION"] = version
     task["label"] = f"{config.kind}-{apworld_name}-{version}"
+    task.setdefault("attributes", {})["latest"] = latest
 
     dependencies = [f"{dep}-{apworld_name}-{version}" for dep in ap_dependencies]
     for dep in dependencies:
@@ -45,6 +46,7 @@ def create_tasks_for_all(config, task):
         if world.get("supported", False):
             versions.append(index["archipelago_version"])
 
-        for version in versions:
-            yield create_task_for_apworld(config, task, world_name, apworld_name, version, ap_deps)
+        for i, version in enumerate(versions):
+            latest = i == (len(versions) - 1)
+            yield create_task_for_apworld(config, task, world_name, apworld_name, version, ap_deps, latest)
 
