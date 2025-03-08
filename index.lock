@@ -212,7 +212,6 @@
 [manual_crashteamracingnitrofueled_hallstead]
 "4.1.0" = "ccd30e9769e6aeb632c61227dbcc0642ebf2215ca39ac52d55638a4d65f76671"
 "4.5.1" = "adafe7e2e2c4b3d8d37dee21bd3a94e75459699754ed271f387392517e767324"
-"5.0.0" = "4e90c097535cebf309c6529bc023b90e68f08492b944083d73e0bc90d268c240"
 
 [manual_deadbydaylight-killer-c34_nivomi]
 "0.0.5" = "3c55d15caf6ad6a1c48779814b9bf7f9ecef8abaaabef9ae1e3e0a7c164983f0"
@@ -342,6 +341,7 @@
 [osu]
 "1.1.1-beta" = "928d4aee987a62b3f69db156e04ded92800002f87b9f9b27dbff5cca1a6a2e62"
 "1.2.0-beta" = "26710280b84a9b22bbbba6984d5ebdcc074bdffe1a193af35d403d1e3163a9db"
+"1.2.4" = "e031be3651ef2e7af1c392cb895a01706bead0b21e03efa7814b3721ba980f72"
 
 [outer_wilds]
 "0.3.6" = "fe4ddd06e41620ea22c478986f4b3e3b79d105543f89f0bde8267b7afae7a161"
